@@ -1,0 +1,17 @@
+@import "~susy/sass/susy";
+
+
+.o-loading-overlay {
+    position: absolute;
+    width: span(12);
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 9;
+    &__visible {
+        display: block;
+    }
+
+    &__hidden {
+        display: none;
+    }
+}

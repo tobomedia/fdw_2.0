@@ -1,0 +1,34 @@
+@import "~susy/sass/susy";
+@import "~normalize-css/normalize";
+
+@import "./config.scss";
+
+img {
+    width: 100%;
+}
+
+body {
+    background: url('/src/img/Wallpaper.jpg');
+    width: container(12);
+}
+
+.e-logo {
+    width: 300px;
+    margin: 0 auto 10px;
+    display: block;
+}
+.container {
+    width: span(12);
+    @media (min-width: 950px) {
+        width: span(10);
+    }
+    margin: 0 auto;
+    background: white;
+    overflow: hidden;
+}
+
+.c-main-content {
+    border-top: lightgrey 1px solid;
+    display: block;
+    padding: 15px 10px;
+}

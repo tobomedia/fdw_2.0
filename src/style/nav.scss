@@ -1,0 +1,54 @@
+@import "~susy/sass/susy";
+
+.c-main-navigation {
+    width: container(4);
+    border-bottom: white 1px solid;
+    background-color: #eee;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 10px;
+    position: relative;
+    overflow: visible;
+
+    &__link-item {
+        @include span(1 of 4);
+        float: left;
+        display: inline;
+        a,
+        a:active,
+        a:visited {
+            font-family: 'Open Sans Condensed', sans-serif;
+            color: #333;
+            text-decoration: none;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__mob-menu {
+        position: absolute;
+        left: 5px;
+        top:5px;
+        z-index: 11;
+        cursor: pointer;
+    }
+    &__link-list {
+        position: absolute;;
+        top:0;
+        left: 0;
+        z-index: 10;
+        background-color: lightgrey;
+        width: span(2 of 4);
+        padding-top: gutter();
+        margin-bottom: -9999px;
+        padding-bottom: 9999px;
+        border-right: 1px solid white;
+        &--closed {
+            left: - + span(2 of 4);
+        }
+    }
+    &__link-item {
+        width: span(4);
+        font-size: 30px;
+    }
+}

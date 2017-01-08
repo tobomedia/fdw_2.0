@@ -1,0 +1,30 @@
+@import "~susy/sass/susy";
+
+
+.c-client-list {
+    display: block;
+    margin-left: 0;
+}
+
+.c-client-list__item {
+    list-style: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    position: relative;
+    transform: scale(1);
+    @include gallery(4 of 12);
+    @media (min-width: 768px) {
+        @include gallery(2 of 12);
+    };
+    img {
+        margin-bottom: -10px
+    }
+
+    &-enter {
+        opacity: 0;
+    }
+    &-enter-active {
+        opacity: 1;
+        transition: opacity 1500ms ease-in;
+    }
+}
