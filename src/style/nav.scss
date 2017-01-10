@@ -35,16 +35,26 @@
     &__link-list {
         position: absolute;;
         top:0;
-        left: 0;
         z-index: 10;
         background-color: lightgrey;
-        width: span(2 of 4);
+        width: 300px;
         padding-top: gutter();
         margin-bottom: -9999px;
         padding-bottom: 9999px;
         border-right: 1px solid white;
-        &--closed {
-            left: - + span(2 of 4);
+        &.menu-enter {
+            left: -300px;
+        }
+        &.menu-enter-active.menu-enter {
+            left: 0;
+            transition: left 200ms ease-in;
+        }
+        &.menu-leave {
+            left: 0;
+        }
+        &.menu-leave-active.menu-leave {
+            left: -300px;
+            transition: left 200ms ease-out;
         }
     }
     &__link-item {
