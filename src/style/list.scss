@@ -9,7 +9,14 @@
 .c-client-list__item {
     list-style: none;
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
     text-align: center;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    border: solid 1px #ddd;
+    min-height: 200px;
+    margin-bottom: 10px;
     position: relative;
     transform: scale(1);
     @include gallery(4 of 12);
@@ -17,7 +24,8 @@
         @include gallery(2 of 12);
     };
     img {
-        margin-bottom: -10px
+        margin-bottom: -10px;
+        cursor: pointer;
     }
 
     &-enter {
