@@ -21,7 +21,10 @@ class List extends Component {
                                     <img src={"/src/" + a.image} />
                                 </a>
                                 <p>{a.caption[0]} </p>
-                                <a className="fa fa-fw newspaper-o"></a>
+                                <div className="c-client-list__item-nav">
+                                    <a href="/news"><img width="25px" height="25px" src="/src/img/newspaper.svg" /></a>
+                                    <a href={spotlightLink} target="_blank"><img width="25px" height="25px" src="/src/img/text-file.svg" /></a>
+                                </div>
                                 </div>}
                             </Motion>
                         }</Delay>)

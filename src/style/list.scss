@@ -35,4 +35,12 @@
         opacity: 1;
         transition: opacity 1500ms ease-in;
     }
+    &-nav {
+        margin-bottom: 15px;
+        a {
+            width: span(1 of 2);
+            display: inline-block;
+
+        }
+    }
 }
