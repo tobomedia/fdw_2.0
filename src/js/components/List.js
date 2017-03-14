@@ -22,7 +22,7 @@ class List extends Component {
                                 </a>
                                 <p>{a.caption[0]} </p>
                                 <div className="c-client-list__item-nav">
-                                    <a href="/news"><img width="25px" height="25px" src="/src/img/newspaper.svg" /></a>
+                                    <a href={'/news#' + (a.caption[0].replace(/\s/g,'_').replace(/\'/, '').toLowerCase())}><img width="25px" height="25px" src="/src/img/newspaper.svg" /></a>
                                     <a href={spotlightLink} target="_blank"><img width="25px" height="25px" src="/src/img/text-file.svg" /></a>
                                 </div>
                                 </div>}
