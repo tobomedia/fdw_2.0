@@ -12,6 +12,8 @@ class List extends Component {
             <div className="c-client-list">
                 {this.props.clientRange.map((a,i) => {
                     let spotlightLink = (/http\:\/\//.test(a.linko[0]) ? a.linko[0] : 'javascript://');
+                    let clientName = this.props.extract(a.caption[0]);
+
                     return (
                         <Delay key={i} value={1} period={i*30}>{ delayed =>
                             <Motion defaultStyle={{o:0}} style={{o:spring(delayed)}}
@@ -22,7 +24,10 @@ class List extends Component {
                                 </a>
                                 <p>{a.caption[0]} </p>
                                 <div className="c-client-list__item-nav">
-                                    <a href={'/news#' + (a.caption[0].replace(/\s/g,'_').replace(/\'/, '').toLowerCase())}><img width="25px" height="25px" src="/src/img/newspaper.svg" /></a>
+
+                                    <a
+                                    className={(this.props.news.includes(clientName) ? '' : 'hide')}
+                                     href={'/news#' + clientName}><img width="25px" height="25px" src="/src/img/newspaper.svg" /></a>
                                     <a href={spotlightLink} target="_blank"><img width="25px" height="25px" src="/src/img/text-file.svg" /></a>
                                 </div>
                                 </div>}

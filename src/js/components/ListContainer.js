@@ -32,6 +32,14 @@ class ListContainer extends Component {
         this.setState({'names': []})
     }
 
+    extractName(text) {
+        let extract = /<h2>(.*)<\/h2>/g.exec(text);
+
+        let convert = (extract ? extract[1].replace(/\s/g,'_').replace(/\'/, '').toLowerCase() : text.replace(/\s/g,'_').replace(/\'/, '').toLowerCase())
+
+        return convert;
+    }
+
     parser(res) {
         parseString(res.text,{trim:true}, (a,b) => {
             this.setState({'names': b.gallery.pic});
@@ -40,7 +48,13 @@ class ListContainer extends Component {
 
     parserNews(res) {
         parseString(res.text,{trim:true}, (a,b) => {
-            this.setState({'news': b.root.collection[0].news});
+            let newsArr = [];
+            b.root.collection[0].news.map((b) => {
+                let clientName = this.extractName(b.text[0])
+                newsArr.push(clientName);
+            })
+
+            this.setState({'news': newsArr});
         });
     }
 
@@ -54,14 +68,14 @@ class ListContainer extends Component {
     }
 
     componentDidMount() {
-        this.getNames(this.props.params);
         this.getNews();
+        this.getNames(this.props.params);
     }
 
     render() {
         return  (
             <div>
-                <List clientRange={this.state.names} news={this.state.news} />
+                <List extract={this.extractName} clientRange={this.state.names} news={this.state.news} />
             </div>
         )
     }
