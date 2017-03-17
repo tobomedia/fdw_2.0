@@ -19,6 +19,10 @@ class Nav extends Component {
         }
     }
 
+    componentWillMount() {
+        this.setState({menu: false});
+    }
+
     renderNavList(state) {
         if (state) {
             return <div key="one" className={`c-main-navigation__link-list ${( this.state.menu ? '' : 'c-main-navigation__link-list--closed')}`}>
@@ -45,10 +49,10 @@ class Nav extends Component {
 
         return <div>
                 <div onClick={this.hideLoading} className="c-main-navigation">
-                    <Link onClick={this.handleMenuClick} to="/">
+                    <a href="/">
                         <img className="e-logo e-logo__desktop" src="/src/img/logo.svg" />
                         <img className="e-logo e-logo__mobile" src="/src/img/logo-mobile.svg" />
-                    </Link>
+                    </a>
                     <img onClick={this.handleMenuClick} className="c-main-navigation__mob-menu" src="/src/img/hamburger.svg" style={{width: '50px', float: 'left'}} />
                     <CSSTransitionGroup
                           transitionName="menu"

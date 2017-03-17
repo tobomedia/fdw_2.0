@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import ajax from '../ajax';
 import {parseString} from 'xml2js';
+import extractName from '../extractName';
 
 import List from './List';
 
@@ -32,13 +33,7 @@ class ListContainer extends Component {
         this.setState({'names': []})
     }
 
-    extractName(text) {
-        let extract = /<h2>(.*)<\/h2>/g.exec(text);
 
-        let convert = (extract ? extract[1].replace(/\s/g,'_').replace(/\'/, '').toLowerCase() : text.replace(/\s/g,'_').replace(/\'/, '').toLowerCase())
-
-        return convert;
-    }
 
     parser(res) {
         parseString(res.text,{trim:true}, (a,b) => {
@@ -50,7 +45,7 @@ class ListContainer extends Component {
         parseString(res.text,{trim:true}, (a,b) => {
             let newsArr = [];
             b.root.collection[0].news.map((b) => {
-                let clientName = this.extractName(b.text[0])
+                let clientName = extractName(b.text[0])
                 newsArr.push(clientName);
             })
 
@@ -75,7 +70,7 @@ class ListContainer extends Component {
     render() {
         return  (
             <div>
-                <List extract={this.extractName} clientRange={this.state.names} news={this.state.news} />
+                <List clientRange={this.state.names} news={this.state.news} />
             </div>
         )
     }

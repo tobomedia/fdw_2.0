@@ -1,0 +1,37 @@
+@import "~susy/sass/susy";
+
+@import "./config.scss";
+
+.home-block {
+    width: span(12);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    &__module {
+        width: span(5);
+        @media (max-width: 768px) {
+            width: span(10);
+        }
+        background-color: white;
+        border-radius: 10px;
+        border: solid 1px #ddd;
+        padding: gutter();
+        margin: gutter();
+        display: inline-block;
+    }
+
+    &__links {
+        width: span(5);
+        text-align: center;
+        display: inline-block;
+        padding: gutter();
+        margin: gutter();
+        background-color: lightgrey;
+    }
+
+    a, a:active, a:visited {
+        color: #333;
+        text-decoration: none;
+    }
+}

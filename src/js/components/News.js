@@ -3,7 +3,8 @@ import React, { Component, PropTypes } from 'react';
 import ajax from '../ajax';
 import {parseString} from 'xml2js';
 import Parser from 'html-react-parser';
-import Scrollchor from 'react-scrollchor';
+
+import extractName from '../extractName';
 
 import '../../style/list.scss';
 
@@ -50,7 +51,9 @@ class News extends Component {
             {
                 (this.state.news ?
                         this.state.news.map((a,i) => {
-                            let clientName = /<h2>(.*)<\/h2>/g.exec(a.text[0])[1].replace(/\s/g,'_').replace(/\'/, '').toLowerCase();
+
+                            let clientName = extractName(a.text[0]);
+
                             return <li id={clientName} className=" c-news-list__item" key={clientName}>
                                 <div className="c-news-list__image">
                                     <img className="c-news-list__item-image" src={`/src/actor_images/${clientName}.jpg`} />
