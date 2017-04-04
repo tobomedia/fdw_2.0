@@ -22,7 +22,7 @@ class List extends Component {
                         key={i}>
                                 {value => <div className="c-client-list__item" style={{ opacity:value.o }}>
                                 <a href={spotlightLink} target="_blank">
-                                    <img src={"/src/" + a.image} />
+                                    <img src={"/assets/" + a.image} />
                                 </a>
                                 <p>{a.caption[0]} </p>
                                 <div className="c-client-list__item-nav">
@@ -30,12 +30,12 @@ class List extends Component {
                                     <a
                                     className={(this.props.news.includes(clientName) ? '' : 'hide')}
                                     href={'/news#' + clientName}>
-                                        <img width="25px" height="25px" src="/src/img/newspaper.svg" />
+                                        <img width="25px" height="25px" src="/assets/img/newspaper.svg" />
                                     </a>
                                     <a
                                      className={(spotlightLink ? '' : 'hide')}
                                      href={spotlightLink} target="_blank">
-                                        <img width="25px" height="25px" src="/src/img/text-file.svg" />
+                                        <img width="25px" height="25px" src="/assets/img/text-file.svg" />
                                      </a>
                                 </div>
                                 </div>}

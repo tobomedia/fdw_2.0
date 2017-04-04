@@ -56,7 +56,7 @@ class News extends Component {
 
                             return <li id={clientName} className=" c-news-list__item" key={clientName}>
                                 <div className="c-news-list__image">
-                                    <img className="c-news-list__item-image" src={`/src/actor_images/${clientName}.jpg`} />
+                                    <img className="c-news-list__item-image" src={`/assets/actor_images/${clientName}.jpg`} />
                                 </div>
                                 <div className="c-news-list__main-text">{Parser(a.text[0])}</div>
                                     </li>

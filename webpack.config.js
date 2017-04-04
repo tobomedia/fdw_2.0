@@ -1,41 +1,49 @@
 module.exports = {
-    entry: './main.js',
+    context: __dirname,
+    entry: {
+        'main': './main.js',
+    },
     output: {
-        path: './',
-        filename: 'index.js'
+        path: __dirname + 'dist/assets',
+        filename: 'index.js',
+        publicPath: '/assets'
     },
     devServer: {
-        inline: true,
-        port:9999
+        contentBase: __dirname,
     },
     module: {
-        loaders: [
+        rules: [
             {
-                test: /\.js$/,
+                test: /\.jsx|\.js$/,
                 exclude: /node_modules/,
-                loader: 'babel',
-                query: {
-                    presets: ['es2015', 'react']
-                }
+                use: [{
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['es2015', 'react']
+                    }
+                }]
             },
             {
                test: /\.css$/,
                exclude: /node_modules/,
-               loader: 'style!css'
+               use: ['style-loader','css-loader']
            },
             {
                test: /\.scss$/,
                exclude: /node_modules/,
-               loader: 'style!css!sass'
+               use: ['style-loader','css-loader','sass-loader']
            },
            {
                test: /\.jpg$/,
-               loader: 'file-loader'
+               use: ['file-loader']
            },
            {
                test: /\.svg/,
-               loader: 'svg-url-loader'
+               use: ['svg-url-loader']
            }
         ]
+    },
+    resolve: {
+        extensions: ['*', '.js', '.jsx']
     }
 };
