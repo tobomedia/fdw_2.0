@@ -4,13 +4,9 @@ module.exports = {
         'main': './main.js',
     },
     output: {
-        path: __dirname + '/prototype/assets',
+        path: __dirname + '/assets55',
         filename: 'index.js',
-        publicPath: '/prototype/assets'
-    },
-    devServer: {
-        contentBase: __dirname,
-        port:9999
+        publicPath: '/assets55'
     },
     module: {
         rules: [
@@ -45,6 +41,6 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['*', '.js', '.jsx']
+        extensions: ['*', '.js', '.jsx', 'scss', '.svg', '.jpg', '.png']
     }
 };

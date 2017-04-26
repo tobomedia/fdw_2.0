@@ -59,12 +59,12 @@ class ListContainer extends Component {
 
     componentWillReceiveProps(nextProps) {
         this.removeNames();
-        this.getNames(nextProps.params);
+        this.getNames(nextProps.match.params);
     }
 
     componentDidMount() {
         this.getNews();
-        this.getNames(this.props.params);
+        this.getNames(this.props.match.params);
     }
 
     render() {

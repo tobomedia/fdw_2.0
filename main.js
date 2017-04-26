@@ -1,21 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory, IndexRoute } from 'react-router';
+import { BrowserRouter as Router, Route, IndexRoute } from 'react-router-dom';
 /* CSS */
 import './src/style/style.scss';
 /* components */
-import Nav from './src/js/components/Nav';
-import ListContainer from './src/js/components/ListContainer';
-import Home from './src/js/components/Home';
-import News from './src/js/components/News';
+import App from './src/js/components/App';
 
 ReactDOM.render(
 <div className="container">
-    <Router history={browserHistory} >
-        <Route path="/" component={Nav} >
-            <IndexRoute component={Home}/>
-            <Route path="/actors/:clientRange" component={ListContainer} />
-            <Route path="/news" component={News} />
-        </Route>
+    <Router basename='/prototype'>
+        <App/>
     </Router>
 </div>, document.getElementById('app'));

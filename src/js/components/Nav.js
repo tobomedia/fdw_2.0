@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import {Link} from 'react-router';
+import {Link} from 'react-router-dom';
 import CSSTransitionGroup from 'react-addons-css-transition-group';
 import '../../style/nav.scss';
 
@@ -12,11 +12,7 @@ class Nav extends Component {
     }
 
     handleMenuClick() {
-        if(this.state.menu) {
-            this.setState({menu: false})
-        } else {
-            this.setState({menu: true})
-        }
+        this.setState({menu: !this.state.menu})
     }
 
     componentWillMount() {
@@ -49,11 +45,11 @@ class Nav extends Component {
 
         return <div>
                 <div onClick={this.hideLoading} className="c-main-navigation">
-                    <a href="/">
-                        <img className="e-logo e-logo__desktop" src="/assets/img/logo.svg" />
-                        <img className="e-logo e-logo__mobile" src="/assets/img/logo-mobile.svg" />
+                    <a href="/prototype">
+                        <img className="e-logo e-logo__desktop" src="/prototype/assets/img/logo.svg" />
+                        <img className="e-logo e-logo__mobile" src="/prototype/assets/img/logo-mobile.svg" />
                     </a>
-                    <img onClick={this.handleMenuClick} className="c-main-navigation__mob-menu" src="/assets/img/hamburger.svg" style={{width: '50px', float: 'left'}} />
+                    <img onClick={this.handleMenuClick} className="c-main-navigation__mob-menu" src="/prototype/assets/img/hamburger.svg" style={{width: '50px', float: 'left'}} />
                     <CSSTransitionGroup
                           transitionName="menu"
                           transitionEnterTimeout={500}
