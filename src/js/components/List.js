@@ -4,6 +4,8 @@ import React, { Component, PropTypes } from 'react';
 import { Motion, spring } from 'react-motion';
 import Delay from './Delay';
 
+import { Link } from 'react-router-dom';
+
 import extractName from '../extractName';
 
 
@@ -26,12 +28,11 @@ class List extends Component {
                                 </a>
                                 <p>{a.caption[0]} </p>
                                 <div className="c-client-list__item-nav">
-
-                                    <a
-                                    className={(this.props.news.includes(clientName) ? '' : 'hide')}
-                                    href={'/prototype/news#' + clientName}>
-                                        <img width="25px" height="25px" src="/prototype/assets/img/newspaper.svg" />
-                                    </a>
+                                    <span className={(this.props.news.includes(clientName) ? 'c-client-list__link' : 'hide')}>
+                                        <Link to={`/news/${clientName}`}>
+                                            <img width="25px" height="25px" src="/prototype/assets/img/newspaper.svg" />
+                                        </Link>
+                                    </span>
                                     <a
                                      className={(spotlightLink ? '' : 'hide')}
                                      href={spotlightLink} target="_blank">

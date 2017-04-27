@@ -29,16 +29,15 @@ class News extends Component {
     }
 
     scrollTo(id) {
-        let client = document.querySelector(id);
-        client.scrollIntoView();
+        document.querySelector(`#${id}`).scrollIntoView();
     }
 
     parser(res) {
         parseString(res.text,{trim:true}, (a,b) => {
             this.setState({'news': b.root.collection[0].news});
 
-            if (window.location.hash) {
-                this.scrollTo(window.location.hash);
+            if (this.props.match.params.client) {
+                this.scrollTo(this.props.match.params.client);
             }
         });
     }

@@ -4,9 +4,9 @@ module.exports = {
         'main': './main.js',
     },
     output: {
-        path: __dirname + '/assets55',
+        path: __dirname + '/assets',
         filename: 'index.js',
-        publicPath: '/assets55'
+        publicPath: '/assets'
     },
     module: {
         rules: [
