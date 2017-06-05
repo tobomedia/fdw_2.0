@@ -127,6 +127,15 @@
 </pic>
 
 <pic>
+<image>actor_images/siobhan_bevan.jpg</image>
+<caption>Siobhan Bevan</caption>
+<video>none</video>
+<bio>siobhan_bevan</bio>
+<bio_num>1</bio_num>
+<linko>https://www.spotlight.com/interactive/cv/19/F214430.html</linko>
+</pic>
+
+<pic>
 <image>actor_images/lauriane_borde.jpg</image>
 <caption>Lauriane Borde</caption>
 <video>none</video>
@@ -382,6 +391,15 @@
 </pic>
 
 <pic>
+<image>actor_images/grace_gill.jpg</image>
+<caption>Grace Gill</caption>
+<video>none</video>
+<bio>grace_gill</bio>
+<bio_num>3</bio_num>
+<linko>https://www.spotlight.com/interactive/cv/19/F214221.1903.html</linko>
+</pic>
+
+<pic>
 <image>actor_images/tina_gray.jpg</image>
 <caption>Tina Gray</caption>
 <video>none</video>
@@ -398,6 +416,22 @@
 <bio>ceri_ann_gregory</bio>
 <bio_num>2</bio_num>
 <linko>http://www.spotlight.com/7360-9085-1222</linko>
+</pic>
+
+<pic>
+<image>actor_images/billie_hamer.jpg</image>
+<caption>Billie Hamer</caption>
+<video>none</video>
+<bio>billie_hamer</bio><bio_num>1</bio_num>
+<linko>https://www.spotlight.com/interactive/cv/19/F125103.html</linko>
+</pic>
+
+<pic>
+<image>actor_images/georgina_rose_hanson.jpg</image>
+<caption>Georgina Rose Hanson</caption>
+<video>none</video>
+<bio>georgina_rose_hanson</bio><bio_num>1</bio_num>
+<linko>https://www.spotlight.com/interactive/cv/19/F214261.html</linko>
 </pic>
 
 <pic>
@@ -490,7 +524,7 @@
 <caption>Safiyya Ingar</caption>
 <video>none</video>
 <bio>safiyya_ingar</bio><bio_num>1</bio_num>
-<linko>https://www.spotlight.com/interactive/cv/19/F142611..html</linko>
+<linko>https://www.spotlight.com/interactive/cv/19/F142611.html</linko>
 </pic>
 
 <pic>

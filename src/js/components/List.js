@@ -15,7 +15,7 @@ class List extends Component {
         return <div>
             <div className="c-client-list">
                 {this.props.clientRange.map((a,i) => {
-                    let spotlightLink = (/http(s)?\:\/\//.test(a.linko[0]) ? a.linko[0] : false);
+                    let spotlightLink = (/http(s)?\:\/\//.test(a.linko[0]) || /\/[backdoor_bios]+/.test(a.linko[0]) ? a.linko[0] : false);
                     let clientName = extractName(a.caption[0]);
 
                     return (

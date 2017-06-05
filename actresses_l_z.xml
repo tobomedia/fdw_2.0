@@ -183,7 +183,7 @@
 <caption>Charleen Qwaye</caption>
 <video>none</video>
 <bio>charleen_qwaye</bio><bio_num>1</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/1/F103635..html</linko>
+<linko>http://www.spotlight.com/interactive/cv/1/F103635.html</linko>
 
 </pic>
 
@@ -238,7 +238,7 @@
 <video>none</video>
 <bio>unique_spencer</bio>
 <bio_num>2</bio_num>
-<linko>https://www.spotlight.com/interactive/cv/19/F157258..html</linko>
+<linko>https://www.spotlight.com/interactive/cv/19/F157258.html</linko>
 </pic>
 
 <pic>
@@ -303,12 +303,30 @@
 </pic>
 
 <pic>
+<image>actor_images/scarlett_waters.jpg</image>
+<caption>Scarlett Waters</caption>
+<video>none</video>
+<bio>scarlett_waters</bio>
+<bio_num>2</bio_num>
+<linko>https://www.spotlight.com/interactive/cv/17/F225203..html</linko>
+</pic>
+
+<pic>
 <image>actor_images/anna-marie-wayne.jpg</image>
 <caption>Anna-Marie Wayne</caption>
 <video>none</video>
 <bio>anna-marie-wayne</bio>
 <bio_num>2</bio_num>
 <linko>http://www.spotlight.com/7817-7867-3507</linko>
+</pic>
+
+<pic>
+<image>actor_images/zoe_west.jpg</image>
+<caption>Zoe West</caption>
+<video>none</video>
+<bio>zoe_west</bio>
+<bio_num>2</bio_num>
+<linko>https://www.spotlight.com/interactive/cv/1/F214540.html</linko>
 </pic>
 
 <pic>

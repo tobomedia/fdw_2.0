@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback --inline ",
     "build": "webpack --progress -p --config webpack.deploy.config.js && cp -r prototype/assets/* assets",
-    "clean": "rm -rf assets"
+    "clean": "find . -maxdepth 1 -name 'assets*' -type d -exec rm -rf '{}' +"
   },
   "author": "",
   "license": "ISC",

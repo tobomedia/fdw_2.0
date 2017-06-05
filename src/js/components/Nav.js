@@ -35,6 +35,18 @@ class Nav extends Component {
                     <Link to="/actors/actors_l_z">Actors L~Z</Link>
                 </div>
                 <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
+                    <Link to="/actors/creatives">Creatives</Link>
+                </div>
+                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
+                    <Link to="/about-us">About Us</Link>
+                </div>
+                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
+                    <Link to="/team">The Team</Link>
+                </div>
+                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
+                    <Link to="/history">History</Link>
+                </div>
+                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
                     <Link to="/news">News</Link>
                 </div>
             </div>

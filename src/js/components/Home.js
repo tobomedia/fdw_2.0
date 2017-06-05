@@ -17,7 +17,7 @@ class Home extends Component {
             <Link className="home-block__links" to="/actors/actresses_l_z">L-Z</Link>
             </div>
             <div className="home-block__module">
-                <Link to="/creatives"><h1>Creatives</h1></Link>
+                <Link to="/actors/creatives"><h1>Creatives</h1></Link>
             </div>
             <div className="home-block__module">
                 <Link to="/news"><h1>News</h1></Link>

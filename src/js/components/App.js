@@ -5,7 +5,9 @@ import Nav from './Nav';
 import ListContainer from './ListContainer';
 import Home from './Home';
 import News from './News';
-import Creatives from './Creatives';
+import About from './About';
+import Team from './Team';
+import History from './History';
 
 class App extends Component {
     render() {
@@ -15,7 +17,9 @@ class App extends Component {
                 <Route exact path="/" component={Home}/>
                 <Route path="/actors/:clientRange" component={ListContainer} />
                 <Route path="/news/:client?" component={News} />
-                <Route path="/creatives" component={Creatives} />
+                <Route path="/about-us" component={About} />
+                <Route path="/team" component={Team} />
+                <Route path="/history" component={History} />
             </Switch>
         </div>
     }
