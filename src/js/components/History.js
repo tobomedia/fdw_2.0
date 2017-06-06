@@ -1,7 +1,8 @@
 import React from 'react';
 
 const History = () => {
-    return (<div>
+    return (<div className="c-content-module">
+            <h1>Our History</h1>
             <p>The late Felix de Wolfe founded Felix de Wolfe Theatrical and Literary Agency and his hallmarks as an
                 agent were his talent for friendship, his endless courtesy and his patience. Many of his clients became
                 close personal friends, and his reputation throughout the industry was as a fair but charmingly

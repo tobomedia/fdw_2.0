@@ -1,7 +1,8 @@
 import React from 'react';
 
 const About = () => {
-    return (<div>
+    return (<div className="c-content-module">
+            <h1>About us</h1>
             <p>Felix de Wolfe was established in 1947 and remains one of the longest running independent
             entertainment and literary agencies in the United Kingdom. Over this period we have represented
             some of the country’s most talented performers and creatives, both in the UK and globally. We pride

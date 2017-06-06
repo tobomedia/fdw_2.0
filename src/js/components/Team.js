@@ -1,7 +1,8 @@
 import React from 'react';
 
 const Team = () => {
-    return (<div>
+    return (<div className="c-content-module">
+            <h1>Our Team</h1>
             <p>Felix de Wolfe has two agents, Caroline de Wolfe and Wendy Scozzaro. They are ably assisted by Rob
                 Hughes, who originally trained as an actor and subsequently joined the team in October 2016.
                 Caroline joined the business in 1986, and she took the helm in 2004. Working alongside her father for
