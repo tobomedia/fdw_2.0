@@ -11,32 +11,20 @@ img {
 
 body {
     background-attachment: fixed;
-    background: url('/prototype/assets/img/wallpaper.jpg');
     width: container(12);
 }
 
 .e-logo {
     width: 300px;
-    margin: 0 auto 10px;
+    margin: 0 auto;
     display: block;
     margin-top: -1px;
     background-color: white;
     border-radius: 0 0 10px 10px;
     border: solid 1px #dddddd;
     padding: 5px;
-    &__desktop {
-        display: none;
-        @media (min-width: 950px) {
-            display: block;
-        }
-    }
-    &__mobile {
-        display: block;
-        width: 150px;
-        @media (min-width: 950px) {
-            display: none;
-        }
-    }
+    position: relative;
+    z-index: 2;
 }
 .container {
     width: span(12);
@@ -50,7 +38,8 @@ body {
 
 .c-main-content {
     display: block;
-    padding: 15px 10px;
+    overflow: hidden;
+    padding: 0px 10px;
 }
 
 .c-content-module {

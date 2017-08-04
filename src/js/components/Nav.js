@@ -7,73 +7,70 @@ class Nav extends Component {
     constructor() {
         super();
 
-        this.state = {menu : false};
+        this.state = {menu : true};
         this.handleMenuClick = this.handleMenuClick.bind(this);
     }
 
-    handleMenuClick() {
-        this.setState({menu: !this.state.menu})
+    handleMenuClick(e) {
+        e.preventDefault();
+        document.querySelector('.c-main-navigation__link-list').scrollIntoView(false);
     }
 
-    componentWillMount() {
-        this.setState({menu: false});
+    scrollTop() {
+        document.querySelector('body').scrollTop = 0;
     }
 
-    renderNavList(state) {
-        if (state) {
-            return <div key="one" className={`c-main-navigation__link-list ${( this.state.menu ? '' : 'c-main-navigation__link-list--closed')}`}>
-                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
-                    <Link to="/actors/actresses_a_k">Actresses A~K</Link>
-                </div>
-                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
-                    <Link to="/actors/actresses_l_z">Actresses L~Z</Link>
-                </div>
-                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
-                    <Link to="/actors/actors_a_k">Actors A~K</Link>
-                </div>
-                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
-                    <Link to="/actors/actors_l_z">Actors L~Z</Link>
-                </div>
-                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
-                    <Link to="/actors/creatives">Creatives</Link>
-                </div>
-                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
-                    <Link to="/about-us">About Us</Link>
-                </div>
-                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
-                    <Link to="/team">The Team</Link>
-                </div>
-                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
-                    <Link to="/history">History</Link>
-                </div>
-                <div onClick={this.handleMenuClick} className="c-main-navigation__link-item">
-                    <Link to="/news">News</Link>
-                </div>
-            </div>
-        }
+    componentWillReceiveProps() {
+        this.scrollTop();
+    }
+
+    componentDidMount() {
+        this.scrollTop();
     }
 
     render() {
-
-        return <div>
+        return (<div>
                 <div onClick={this.hideLoading} className="c-main-navigation">
                     <a href="/prototype">
                         <img className="e-logo e-logo__desktop" src="/prototype/assets/img/logo.svg" />
-                        <img className="e-logo e-logo__mobile" src="/prototype/assets/img/logo-mobile.svg" />
                     </a>
-                    <img onClick={this.handleMenuClick} className="c-main-navigation__mob-menu" src="/prototype/assets/img/hamburger.svg" style={{width: '50px', float: 'left'}} />
-                    <CSSTransitionGroup
-                          transitionName="menu"
-                          transitionEnterTimeout={500}
-                          transitionLeaveTimeout={300}>
-                        {this.renderNavList(this.state.menu)}
-                    </CSSTransitionGroup>
+                    <a href onClick={this.handleMenuClick} className="c-main-navigation__mob-menu">
+                        <span className="c-main-navigation__mob-menu-text">
+                            Menu
+                        </span>
+                    </a>
                 </div>
 
             <div className="c-main-content">
                 {this.props.children}
             </div>
-        </div>
+            <div key="one" className="c-main-navigation__link-list">
+                <div className="c-main-navigation__link-item">
+                    <Link to="/actors/actresses_a_k">Actresses A~K</Link>
+                </div>
+                <div className="c-main-navigation__link-item">
+                    <Link to="/actors/actresses_l_z">Actresses L~Z</Link>
+                </div>
+                <div className="c-main-navigation__link-item">
+                    <Link to="/actors/actors_a_k">Actors A~K</Link>
+                </div>
+                <div className="c-main-navigation__link-item">
+                    <Link to="/actors/actors_l_z">Actors L~Z</Link>
+                </div>
+                <div className="c-main-navigation__link-item">
+                    <Link to="/actors/creatives">Creatives</Link>
+                </div>
+                <div className="c-main-navigation__link-item">
+                    <Link to="/about-us">About Us</Link>
+                </div>
+                <div className="c-main-navigation__link-item">
+                    <Link to="/team">The Team</Link>
+                </div>
+                <div className="c-main-navigation__link-item">
+                    <Link to="/news">News</Link>
+                </div>
+            </div>
+        </div>)
     }
 }
 

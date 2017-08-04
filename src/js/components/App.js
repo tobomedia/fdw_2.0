@@ -12,7 +12,7 @@ import History from './History';
 class App extends Component {
     render() {
         return <div>
-            <Nav/>
+            <Nav>
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/actors/:clientRange" component={ListContainer} />
@@ -21,6 +21,7 @@ class App extends Component {
                 <Route path="/team" component={Team} />
                 <Route path="/history" component={History} />
             </Switch>
+        </Nav>
         </div>
     }
 }

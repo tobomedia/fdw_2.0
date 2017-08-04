@@ -2,6 +2,7 @@
 
 .c-main-navigation {
     width: container(4);
+    height: 140px;
     text-align: center;
     overflow: hidden;
     padding-bottom: 10px;
@@ -24,40 +25,42 @@
         }
     }
     &__mob-menu {
+        background-color: #333;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        border: solid 1px #333;
+        position: relative;
+        top: -31px;
+        width: 60px;
+        height: 60px;
+        z-index: 1;
+        display: inline-block;
+        transform: rotate(45deg);
+        text-align: center;
+    }
+    &__mob-menu-text {
+        transform: rotate(-45deg);
+        display: inline-block;
         position: absolute;
-        background-color: white;
-        left: 20px;
-        top:30px;
-        z-index: 11;
-        cursor: pointer;
+        top: 25px;
+        left: 18px;
     }
     &__link-list {
-        position: absolute;;
-        top:0;
-        z-index: 10;
-        background-color: lightgrey;
-        width: 300px;
+        display: block;
+        width: 100%;
         padding-top: gutter();
-        margin-bottom: -9999px;
-        padding-bottom: 9999px;
         border-right: 1px solid white;
-        &.menu-enter {
-            left: -300px;
-        }
-        &.menu-enter-active.menu-enter {
-            left: 0;
-            transition: left 200ms ease-in;
-        }
-        &.menu-leave {
-            left: 0;
-        }
-        &.menu-leave-active.menu-leave {
-            left: -300px;
-            transition: left 200ms ease-out;
-        }
+        overflow: hidden;
     }
     &__link-item {
         width: span(4);
         font-size: 30px;
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+        background-color: lightgrey;
+        border-top: solid 1px #fff;
     }
 }

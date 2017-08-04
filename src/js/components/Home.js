@@ -20,6 +20,9 @@ class Home extends Component {
                 <Link to="/actors/creatives"><h1>Creatives</h1></Link>
             </div>
             <div className="home-block__module">
+                <Link to="/About-us"><h1>About us</h1></Link>
+            </div>
+            <div className="home-block__module">
                 <Link to="/news"><h1>News</h1></Link>
             </div>
         </div>
