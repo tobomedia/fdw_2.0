@@ -27,6 +27,7 @@ class Delay extends Component{
   }
   render(){
     // function-as-children
+    debugger;
     return this.props.children(this.state.value);
   }
 }

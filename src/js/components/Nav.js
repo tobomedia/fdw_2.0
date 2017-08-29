@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import {Link} from 'react-router-dom';
-import CSSTransitionGroup from 'react-addons-css-transition-group';
+
 import '../../style/nav.scss';
 
 class Nav extends Component {
@@ -46,28 +46,28 @@ class Nav extends Component {
             </div>
             <div key="one" className="c-main-navigation__link-list">
                 <div className="c-main-navigation__link-item">
-                    <Link to="/actors/actresses_a_k">Actresses A~K</Link>
+                    <Link to="/actresses">Actresses</Link>
                 </div>
                 <div className="c-main-navigation__link-item">
-                    <Link to="/actors/actresses_l_z">Actresses L~Z</Link>
+                    <Link to="/actors">Actors</Link>
                 </div>
                 <div className="c-main-navigation__link-item">
-                    <Link to="/actors/actors_a_k">Actors A~K</Link>
+                    <Link to="/creatives">Creatives</Link>
                 </div>
                 <div className="c-main-navigation__link-item">
-                    <Link to="/actors/actors_l_z">Actors L~Z</Link>
-                </div>
-                <div className="c-main-navigation__link-item">
-                    <Link to="/actors/creatives">Creatives</Link>
+                    <Link to="/news">News</Link>
                 </div>
                 <div className="c-main-navigation__link-item">
                     <Link to="/about-us">About Us</Link>
                 </div>
                 <div className="c-main-navigation__link-item">
-                    <Link to="/team">The Team</Link>
+                    <Link to="/history">History</Link>
                 </div>
                 <div className="c-main-navigation__link-item">
-                    <Link to="/news">News</Link>
+                    <Link to="/contact-us">Contact Us</Link>
+                </div>
+                <div className="c-main-navigation__link-item">
+                    <Link to="/">Home</Link>
                 </div>
             </div>
         </div>)

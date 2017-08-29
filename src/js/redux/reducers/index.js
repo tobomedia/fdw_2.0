@@ -1,15 +1,32 @@
+import * as types from '../constants';
+
 const INITIAL_STATE = {
-    clients: []
+    actors:[],
+    actresses:[],
+    creatives:[],
+    news: []
 }
 
 const appReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case 'UPDATE_CLIENTS':
-      return Object.assign({}, state, {
-          client:action.data
-      });
+    case types.RECEIVE_ACTORS:
+        return Object.assign({}, state, {
+            actors: action.data
+        });
+    case types.RECEIVE_ACTRESSES:
+        return Object.assign({}, state, {
+            actresses: action.data
+        });
+    case types.RECEIVE_CREATIVES:
+        return Object.assign({}, state, {
+            creatives: action.data
+        });
+    case types.RECEIVE_NEWS:
+        return Object.assign({}, state, {
+            news: action.data
+        });
     default:
-    return state
+        return state
     }
 }
 

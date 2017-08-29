@@ -16,7 +16,7 @@
         a,
         a:active,
         a:visited {
-            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             color: #333;
             text-decoration: none;
         }
@@ -26,10 +26,10 @@
     }
     &__mob-menu {
         background-color: #333;
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #fff;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 15px;
         border: solid 1px #333;
         position: relative;
         top: -31px;
@@ -44,8 +44,8 @@
         transform: rotate(-45deg);
         display: inline-block;
         position: absolute;
-        top: 25px;
-        left: 18px;
+        top: 30px;
+        left: 20px;
     }
     &__link-list {
         display: block;
