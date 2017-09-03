@@ -4,7 +4,8 @@ const INITIAL_STATE = {
     actors:[],
     actresses:[],
     creatives:[],
-    news: []
+    newsArray: [],
+    newsObject: {}
 }
 
 const appReducer = (state = INITIAL_STATE, action) => {
@@ -23,7 +24,8 @@ const appReducer = (state = INITIAL_STATE, action) => {
         });
     case types.RECEIVE_NEWS:
         return Object.assign({}, state, {
-            news: action.data
+            newsArray: action.data.newsArray,
+            newsObject: action.data.newsObject
         });
     default:
         return state

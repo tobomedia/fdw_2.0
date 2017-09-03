@@ -10,11 +10,16 @@ class ArtistList extends Component {
     }
 
     componentDidMount() {
+        if (!this.props[this.props.params.clientRange].length) {
             this.props.getArtists(this.props.params.clientRange)
+        }
+        if (!this.props.newsArray.length) {
+            this.props.getNews();
+        }
     }
 
     componentWillReceiveProps(newProps) {
-            if (this.props.params.clientRange !== newProps.params.clientRange) {
+            if (!newProps[newProps.params.clientRange].length && this.props.params.clientRange !== newProps.params.clientRange) {
                 this.props.getArtists(newProps.params.clientRange)
             }
     }
@@ -26,9 +31,10 @@ class ArtistList extends Component {
             <div className="c-client-list">
                 {this.props[this.props.params.clientRange].map((item,index) => {
                     let spotlightLink = (/http(s)?\:\/\//.test(item.linko[0]) || /\/[backdoor_bios]+/.test(item.linko[0]) ? item.linko[0] : false);
-                    let clientName = extractName(item.caption[0]);
+                    // debugger;
+                    let clientName = item.bio[0];
 
-                    return (<ArtistItem key={clientName} index={index} item={item} spotlightLink={spotlightLink} clientName={clientName} delay={100} />)}
+                    return (<ArtistItem hasNews={(this.props.newsObject[clientName] ? true : false)} key={clientName} index={index} item={item} spotlightLink={spotlightLink} clientName={clientName} delay={100} />)}
                         )}
                 </div>
             </div>)}

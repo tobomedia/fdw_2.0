@@ -2,3 +2,6 @@ node_modules/
 .DS_Store
 **/.DS_Store
 assets/
+scraper.js
+images.json
+prototype/test/

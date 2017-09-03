@@ -8,12 +8,14 @@ import ArtistList from './ArtistList';
 
 export const mapStateToProps = (state, ownProps) => {
     const { match: { params } } = ownProps;
-    const { actors, actresses, creatives } = state;
+    const { actors, actresses, creatives, newsArray, newsObject } = state;
     return {
         params,
         actors,
         actresses,
-        creatives
+        creatives,
+        newsArray,
+        newsObject
     }
 };
 
@@ -25,6 +27,9 @@ export const mapDispatchToProps = (dispatch, ownProps) => {
             } else if (artistType === 'creatives') {
                 dispatch(Actions.getCreatives(artistType));
             }
+        },
+        getNews: () => {
+            dispatch(Actions.getNews());
         }
     }
 };

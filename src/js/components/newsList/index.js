@@ -8,10 +8,11 @@ import News from './News';
 
 export const mapStateToProps = (state, ownProps) => {
     const { match: { params } } = ownProps;
-    const { news } = state;
+    const { newsArray } = state;
+    
     return {
         params,
-        news
+        newsArray
     }
 };
 

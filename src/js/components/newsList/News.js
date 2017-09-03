@@ -16,27 +16,28 @@ class News extends Component {
     componentDidMount() {
         this.props.getNews();
 
-        if (this.props.match.params.client) {
+        if (this.props.match.params.client && this.props.newsArray.length) {
             this.scrollTo(this.props.match.params.client);
+        }
+    }
+
+    componentWillReceiveProps(newProps) {
+        if (newProps.match.params.client && newProps.newsArray.length) {
+            this.scrollTo(newProps.match.params.client);
         }
     }
 
     render() {
         return (<ul className="c-news-list">
-            {
-                (this.props.news ?
-                        this.props.news.map((a,i) => {
-
-                            let clientName = extractName(a.text[0]);
-
-                            return <li id={clientName} className=" c-news-list__item" key={clientName}>
-                                <div className="c-news-list__image">
-                                    <img className="c-news-list__item-image" src={`/prototype/assets/actor_images/${clientName}.jpg`} />
-                                </div>
-                                <div className="c-news-list__main-text">{Parser(a.text[0])}</div>
-                                    </li>
-                        })
-                        :<span>No News Yet</span>)
+                    {this.props.newsArray.map((a,i) => {
+                        let clientName = extractName(a);
+                        return <li id={clientName} className=" c-news-list__item" key={clientName}>
+                            <div className="c-news-list__image">
+                                <img className="c-news-list__item-image" src={`/prototype/assets/actor_images/${clientName}.jpg`} />
+                            </div>
+                            <div className="c-news-list__main-text">{Parser(a)}</div>
+                        </li>
+                    })
             }
         </ul>)
     }

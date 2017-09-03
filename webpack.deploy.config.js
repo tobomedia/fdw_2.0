@@ -5,7 +5,7 @@ module.exports = {
     },
     output: {
         path: __dirname + '/assets',
-        filename: 'index.js',
+        filename: 'index77.js',
         publicPath: '/assets'
     },
     module: {

@@ -16,12 +16,11 @@ class App extends Component {
             <Nav>
             <Switch>
                 <Route exact path="/" component={Home}/>
-                <Route path="/news/:client?" component={News} />
-                <Route path="/:clientRange" component={ArtistList} />
-                <Route path="/creatives" component={ArtistList} />
                 <Route path="/about-us" component={About} />
                 <Route path="/history" component={History} />
                 <Route path="/contact-us" component={ContactUs} />
+                <Route path="/news/:client?" component={News} />
+                <Route path="/:clientRange" component={ArtistList} />
             </Switch>
         </Nav>
         </div>

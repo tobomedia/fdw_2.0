@@ -7,7 +7,9 @@ class ArtistSearch extends Component {
 
     render() {
         return (<div style={{textAlign:'center'}}>
-                <input type="text" />
+                <label>Search Artists &nbsp;
+                <input type="text" name="search"/>
+                </label>
             </div>)
     }
 }

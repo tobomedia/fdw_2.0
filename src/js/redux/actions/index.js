@@ -1,6 +1,7 @@
 import * as types from '../constants';
 import ajax from '../../ajax';
 import {parseString} from 'xml2js';
+import extractName from '../../extractName';
 
 export const receiveActors = (actors) => {
     return {
@@ -69,11 +70,17 @@ export const getCreatives = (url) => {
 
 export const getNews = (url) => {
     return (dispatch) => {
-        ajax(`/news.xml`)
+        ajax(`/news-test.xml`)
         .then((response) => {
-            let data =[];
+            let data = [],
+                dataObj = {};
             parseString(response.text,{trim:true}, (a,b) => {
-                dispatch(receiveNews(b.root.collection[0].news));
+                b.root.collection[0].news.map((item,index) => {
+                    let name = extractName(item.text[0]);
+                    dataObj[name] = item.text[0];
+                    data.push(item.text[0])
+                })
+                dispatch(receiveNews({'newsArray' : data, 'newsObject' : dataObj}));
             });
         });
     };
