@@ -5,7 +5,8 @@ const INITIAL_STATE = {
     actresses:[],
     creatives:[],
     newsArray: [],
-    newsObject: {}
+    newsObject: {},
+    search:[]
 }
 
 const appReducer = (state = INITIAL_STATE, action) => {
@@ -27,6 +28,17 @@ const appReducer = (state = INITIAL_STATE, action) => {
             newsArray: action.data.newsArray,
             newsObject: action.data.newsObject
         });
+    case types.SEARCH_ARTIST:
+    const result = state[action.data.range].filter((item) => {
+        return item.bio[0].indexOf(action.data.term.toLowerCase()) > -1;
+    });
+    return Object.assign({}, state, {
+        search: result
+    })
+    case types.CLEAR_SEARCH:
+    return Object.assign({}, state, {
+        search: []
+    });
     default:
         return state
     }

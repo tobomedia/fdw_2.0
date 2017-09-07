@@ -31,6 +31,19 @@ export const receiveNews = (news) => {
     }
 }
 
+export const searchArtist = (term,range) => {
+    return {
+        type: types.SEARCH_ARTIST,
+        data: {'term' : term, 'range' : range }
+    }
+}
+
+export const clearSearch = () => {
+    return {
+        type: types.CLEAR_SEARCH,
+    }
+}
+
 export const getActors = (url) => {
     return (dispatch) => {
         Promise.all([

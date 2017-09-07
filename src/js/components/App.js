@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Nav from './Nav';
 // import ListContainer from './ListContainer';
-import News from './newsList/index';
+import News from './newsList';
 import ArtistList from './artistList';
 import Home from './Home';
 import About from './About';

@@ -11,3 +11,7 @@ export const GET_CREATIVES = 'GET_CREATIVES';
 export const RECEIVE_CREATIVES = 'RECEIVE_CREATIVES';
 
 export const RECEIVE_NEWS = 'RECEIVE_NEWS';
+
+export const SEARCH_ARTIST = 'SEARCH_ARTIST';
+
+export const CLEAR_SEARCH = 'CLEAR_SEARCH';

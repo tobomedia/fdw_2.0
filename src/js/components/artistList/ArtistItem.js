@@ -6,7 +6,7 @@ const ArtistItem = (props) => {
 
     return (<div className="c-client-list__item">
         <a href={props.spotlightLink} target="_blank">
-            <img src={"/prototype/test/" + props.item.image} />
+            <img src={"/prototype/assets/" + props.item.image} />
         </a>
         <p>{props.item.caption[0]} </p>
         <div className="c-client-list__item-nav">
@@ -15,13 +15,14 @@ const ArtistItem = (props) => {
                     <img width="25px" height="25px" src="/prototype/assets/img/newspaper.svg" />
                 </Link>) : null)}
             </span>
-            <a
-             className={(props.spotlightLink ? '' : 'hide')}
-             href={props.spotlightLink} target="_blank">
-                <img width="25px" height="25px" src="/prototype/assets/img/text-file.svg" />
-             </a>
+            {(props.spotlightLink ?
+                <a className={(props.spotlightLink ? '' : 'hide')}
+                    href={props.spotlightLink} target="_blank">
+                    <img width="25px" height="25px" src="/prototype/assets/img/text-file.svg" />
+                </a>
+            : null)}
         </div>
     </div>)
 }
 
-export default ArtistItem
+export default ArtistItem;
