@@ -52,7 +52,7 @@
 </pic>
 
 <pic>
-<image>actor_images/ross_macmahon.jpg</image>
+<image>actor_images/ross_mac_mahon.jpg</image>
 <caption>Ross Mac Mahon</caption>
 <video>none</video>
 <bio>ross_macmahon</bio>
@@ -70,15 +70,6 @@
 </pic>
 
 <pic>
-<image>actor_images/tav_macdougall.jpg</image>
-<caption>Tav Macdougall</caption>
-<video>none</video>
-<bio>tav_macdougall</bio>
-<bio_num>2</bio_num>
-<linko>http://www.spotlight.com/3332-4500-3130</linko>
-</pic>
-
-<pic>
 <image>actor_images/andy_mace.jpg</image>
 <caption>Andy Mace</caption>
 <video>none</video>
@@ -88,7 +79,7 @@
 </pic>
 
 <pic>
-<image>actor_images/matthew-marrs.jpg</image>
+<image>actor_images/matthew_marrs.jpg</image>
 <caption>Matthew Marrs</caption>
 <video>none</video>
 <bio>matthew-marrs</bio>
@@ -119,15 +110,6 @@
 <video>none</video>
 <bio>simon_r_martin</bio><bio_num>1</bio_num>
 <linko>https://www.spotlight.com/interactive/cv/18/M183764.html</linko>
-</pic>
-
-<pic>
-<image>actor_images/matt_cooey.jpg</image>
-<caption>Matt McCooey</caption>
-<video>none</video>
-<bio>matt_mcCooey </bio>
-<bio_num>2</bio_num>
-<linko>http://www.spotlight.com/6939-1270-4659</linko>
 </pic>
 
 <pic>
@@ -179,7 +161,7 @@
 </pic>
 
 <pic>
-<image>actor_images/kentolesen.jpg</image>
+<image>actor_images/kent_olesen.jpg</image>
 <caption>Kent Olesen</caption>
 <video>none</video>
 <bio>kentolesen</bio><bio_num>1</bio_num>
@@ -277,7 +259,7 @@
 </pic>
 
 <pic>
-<image>actor_images/rossi.jpg</image>
+<image>actor_images/george_rossi.jpg</image>
 <caption>George Rossi</caption>
 <video>none</video>
 <bio>philip_riley</bio><bio_num>1</bio_num>
@@ -410,7 +392,7 @@
 </pic>
 
 <pic>
-<image>actor_images/andrew_stewart_jones.jpg</image>
+<image>actor_images/andrew_stewart-jones.jpg</image>
 <caption>Andrew Stewart Jones</caption>
 <video>none</video>
 <bio>andrew_stewart_jones</bio>

@@ -47,8 +47,8 @@ export const clearSearch = () => {
 export const getActors = (url) => {
     return (dispatch) => {
         Promise.all([
-            ajax(`/${url}_a_k.xml`),
-            ajax(`/${url}_l_z.xml`)])
+            ajax(`assets/${url}_a_k.xml`),
+            ajax(`assets/${url}_l_z.xml`)])
         .then((response) => {
             let data =[];
             response.map((item,index)=> {

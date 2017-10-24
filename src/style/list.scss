@@ -16,8 +16,7 @@
     background-color: white;
     border-radius: 0 0 10px 10px;
     border: solid 1px #ddd;
-    min-height: 200px;
-    max-height: 250px;
+    height:300px;
     padding-bottom: 30px;
     margin-bottom: 10px;
     position: relative;
@@ -35,12 +34,12 @@
     }
 
     &-nav {
-        margin-bottom: 15px;
-        position: absolute;;
-        bottom: 10px;
-        @media (min-width: 768px) {
-            bottom: 0px;
-        };
+        // margin-bottom: 15px;
+        // position: absolute;;
+        // bottom: 10px;
+        // @media (min-width: 768px) {
+        //     bottom: 0px;
+        // };
         a , span{
             width: span(2 of 4);
             display: inline-block;

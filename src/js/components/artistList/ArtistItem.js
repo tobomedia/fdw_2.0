@@ -8,7 +8,9 @@ const ArtistItem = (props) => {
         <a href={props.spotlightLink} target="_blank">
             <img src={"/prototype/assets/" + props.item.image} />
         </a>
-        <p>{props.item.caption[0]} </p>
+        <div>
+            <p>{props.item.caption[0]} </p>
+        </div>
         <div className="c-client-list__item-nav">
             <span className={'c-client-list__link'}>
                 {(props.hasNews ? (<Link to={`/news/${props.clientName}`}>
