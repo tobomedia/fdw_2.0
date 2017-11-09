@@ -28,7 +28,7 @@ class ArtistSearch extends Component {
             let spotlightLink = (/http(s)?\:\/\//.test(item.linko[0]) || /\/[backdoor_bios]+/.test(item.linko[0]) ? item.linko[0] : false);
             let clientName = item.bio[0];
 
-            return (<ArtistItem hasNews={(this.props.newsObject[clientName] ? true : false)} key={index+clientName} index={index} item={item} spotlightLink={spotlightLink} clientName={clientName} />)}
+            return (<ArtistItem hasNews={(this.props.newsObject[clientName] ? true : false)} key={index+clientName} index={index} item={item} spotlightLink={spotlightLink} updateRowHeight={this.props.updateRowHeight} rowHeight={this.props.rowHeight} clientName={clientName} />)}
                 )
     }
 

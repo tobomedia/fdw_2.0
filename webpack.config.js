@@ -4,9 +4,9 @@ module.exports = {
         'main': './main.js',
     },
     output: {
-        path: __dirname + '/prototype/assets',
+        path: __dirname + '/mobile/assets',
         filename: 'index.js',
-        publicPath: '/prototype/assets'
+        publicPath: '/mobile/assets'
     },
     devServer: {
         contentBase: __dirname,

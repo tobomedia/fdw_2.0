@@ -2,13 +2,11 @@
 
 
 .c-client-list {
-    display: block;
     margin: 20px;
     margin-left: 0;
 }
 
 .c-client-list__item {
-    list-style: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     line-height: 20px;
@@ -16,15 +14,20 @@
     background-color: white;
     border-radius: 0 0 10px 10px;
     border: solid 1px #ddd;
-    height:300px;
+    display: table-cell;
+    height: 190px;
     padding-bottom: 30px;
     margin-bottom: 10px;
-    position: relative;
-    transform: scale(1);
     animation-name: fadeIn;
     animation-duration: 500ms;
     animation-direction: normal;
     @include gallery(4 of 12);
+    @media (min-width: 320px) {
+        height: 250px;
+    }
+    @media (min-width: 650px) {
+        height: 300px;
+    }
     @media (min-width: 768px) {
         @include gallery(2 of 12);
     };
@@ -34,12 +37,7 @@
     }
 
     &-nav {
-        // margin-bottom: 15px;
-        // position: absolute;;
-        // bottom: 10px;
-        // @media (min-width: 768px) {
-        //     bottom: 0px;
-        // };
+        margin-bottom: 15px;
         a , span{
             width: span(2 of 4);
             display: inline-block;

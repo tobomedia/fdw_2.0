@@ -33,7 +33,7 @@ class News extends Component {
                         let clientName = extractName(a);
                         return <li id={clientName} className=" c-news-list__item" key={clientName}>
                             <div className="c-news-list__image">
-                                <img className="c-news-list__item-image" src={`/prototype/assets/actor_images/${clientName}.jpg`} />
+                                <img className="c-news-list__item-image" src={`/mobile/assets/actor_images/${clientName}.jpg`} />
                             </div>
                             <div className="c-news-list__main-text">{Parser(a)}</div>
                         </li>

@@ -31,8 +31,8 @@ class Nav extends Component {
     render() {
         return (<div>
                 <div onClick={this.hideLoading} className="c-main-navigation">
-                    <a href="/prototype">
-                        <img className="e-logo e-logo__desktop" src="/prototype/assets/img/logo.svg" />
+                    <a href="/mobile">
+                        <img className="e-logo e-logo__desktop" src="/mobile/assets/img/logo.svg" />
                     </a>
                     <a href onClick={this.handleMenuClick} className="c-main-navigation__mob-menu">
                         <span className="c-main-navigation__mob-menu-text">

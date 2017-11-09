@@ -1,11 +1,11 @@
 {
-  "name": "prototype",
+  "name": "mobile",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback --inline ",
-    "build": "webpack --progress -p --config webpack.deploy.config.js && cp -r prototype/assets/* assets && cp actor_images/* assets/actor_images",
+    "build": "webpack --progress -p --config webpack.deploy.config.js && cp -r mobile/assets/* assets && cp actor_images/* assets/actor_images",
     "clean": "find . -maxdepth 1 -name 'assets*' -type d -exec rm -rf '{}' +"
   },
   "author": "",
@@ -39,6 +39,7 @@
     "react-router": "4.2.0",
     "react-router-dom": "^4.1.1",
     "react-scrollchor": "^2.2.0",
+    "react-sizeme": "^2.3.6",
     "react-transition-group": "^2.2.0",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
