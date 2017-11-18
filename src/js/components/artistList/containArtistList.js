@@ -8,8 +8,8 @@ import ArtistList from './ArtistList';
 
 export const mapStateToProps = (state, ownProps) => {
     const { match: { params } } = ownProps;
-    const { actors, actresses, creatives, newsArray, newsObject, search, rowHeight } = state;
-    console.log(rowHeight);
+    const { actors, actresses, creatives, newsArray, newsObject, search } = state;
+
     return {
         params,
         actors,
@@ -17,8 +17,7 @@ export const mapStateToProps = (state, ownProps) => {
         creatives,
         newsArray,
         newsObject,
-        search,
-        rowHeight
+        search
     }
 };
 
@@ -39,9 +38,6 @@ export const mapDispatchToProps = (dispatch, ownProps) => {
         },
         clearSearch: () => {
             dispatch(Actions.clearSearch());
-        },
-        updateRowHeight: (height) => {
-            dispatch(Actions.updateRowHeight(height));
         }
     }
 };

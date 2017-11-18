@@ -9,7 +9,7 @@ import News from './News';
 export const mapStateToProps = (state, ownProps) => {
     const { match: { params } } = ownProps;
     const { newsArray } = state;
-    
+
     return {
         params,
         newsArray

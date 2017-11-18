@@ -25,4 +25,11 @@ const ArtistItem = (props) => {
     </div>)
 }
 
+ArtistItem.propTypes = {
+    spotlightLink: PropTypes.oneOfType([PropTypes.string,PropTypes.bool]),
+    item: PropTypes.object,
+    clientName: PropTypes.string,
+    hasNews: PropTypes.bool
+}
+
 export default ArtistItem;

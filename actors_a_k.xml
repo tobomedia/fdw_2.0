@@ -75,14 +75,6 @@
 </pic>
 
 <pic>
-<image>actor_images/stevie_basaula.jpg</image>
-<caption>Stevie Basaula</caption>
-<video>none</video>
-<bio>stevie_basaula</bio><bio_num>1</bio_num>
-<linko>http://www.spotlight.com/4139-0165-6808</linko>
-</pic>
-
-<pic>
 <image>actor_images/gareth_berliner.jpg</image>
 <caption>Gareth Berliner</caption>
 <video>none</video>
@@ -330,15 +322,6 @@
 </pic>
 
 <pic>
-<image>actor_images/robin_griffith.jpg</image>
-<caption>Robin Griffith</caption>
-<video>none</video>
-<bio>robin_griffith</bio><bio_num>2</bio_num>
-<linko>http://www.spotlight.com/2010-5617-5039</linko>
-</pic>
-
-
-<pic>
 <image>actor_images/john_hales.jpg</image>
 <caption>John Hales</caption>
 <video>none</video>
@@ -438,6 +421,14 @@
 <video>none</video>
 <bio>richard_james-clarke</bio><bio_num>1</bio_num>
 <linko>http://www.spotlight.com/5313-5610-0218</linko>
+</pic>
+
+<pic>
+<image>actor_images/robbie_jarvis-dean.jpg</image>
+<caption>Robbie Jarvis-Dean</caption>
+<video>none</video>
+<bio>robbie_jarvis-dean</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/6930-1271-9972</linko>
 </pic>
 
 <pic>

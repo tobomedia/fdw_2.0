@@ -29,4 +29,10 @@ class ArtistList extends Component {
         </div>)}
     }
 
+ArtistList.propTypes = {
+    params: PropTypes.shape({
+        clientRange: PropTypes.string
+    })
+}
+
 export default ArtistList

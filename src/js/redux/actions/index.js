@@ -83,7 +83,7 @@ export const getCreatives = (url) => {
 
 export const getNews = (url) => {
     return (dispatch) => {
-        ajax(`/news-test.xml`)
+        ajax(`/news.xml`)
         .then((response) => {
             let data = [],
                 dataObj = {};

@@ -43,4 +43,14 @@ class News extends Component {
     }
 }
 
+News.propTypes = {
+    getNews: PropTypes.func,
+    newsArray: PropTypes.array,
+    match: PropTypes.shape({
+        match: PropTypes.shape({
+            client: PropTypes.string
+        })
+    })
+}
+
 export default News
