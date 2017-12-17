@@ -7,18 +7,12 @@ class ArtistSearch extends Component {
         super();
 
         this.renderSearch = this.renderSearch.bind(this);
-        this.search = this.search.bind(this);
     }
 
     componentWillReceiveProps({params}) {
         if (params.clientRange !== this.props.params.clientRange) {
             this.props.clearSearch();
         }
-    }
-
-    search(e) {
-        e.preventDefault();
-        this.props.searchArtist(e.target.value,this.props.params.clientRange);
     }
 
     renderSearch() {
@@ -33,11 +27,7 @@ class ArtistSearch extends Component {
     }
 
     render() {
-        return (
-            <div>
-                <form onSubmit={this.search} className="searchbox">
-                    <input onChange={this.search} className="search-input" name="q" type="text" size="40" placeholder={`Search ${this.props.params.clientRange}`} />
-                </form>
+        return (<div>
                 <div className="c-client-list">
                     {this.renderSearch()}
                 </div>

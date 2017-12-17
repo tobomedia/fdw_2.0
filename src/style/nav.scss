@@ -1,18 +1,21 @@
 @import "~susy/sass/susy";
 
 .c-main-navigation {
-    width: container(4);
-    height: 140px;
+    width: container(8);
     text-align: center;
     overflow: hidden;
-    padding-bottom: 10px;
     position: relative;
     overflow: visible;
-
+    &__link-list {
+        display: block;
+        overflow: hidden;
+        padding: 20px 0;
+    }
     &__link-item {
-        @include span(1 of 4);
-        float: left;
-        display: inline;
+        width: span(1 of 8);
+        font-size: 1.1em;
+        display: inline-block;
+        text-align: center;
         a,
         a:active,
         a:visited {
@@ -23,44 +26,5 @@
         &:last-child {
             margin-right: 0;
         }
-    }
-    &__mob-menu {
-        background-color: #333;
-        font-family: 'Montserrat', sans-serif;
-        color: #fff;
-        text-decoration: none;
-        font-size: 15px;
-        border: solid 1px #333;
-        position: relative;
-        top: -31px;
-        width: 60px;
-        height: 60px;
-        z-index: 1;
-        display: inline-block;
-        transform: rotate(45deg);
-        text-align: center;
-    }
-    &__mob-menu-text {
-        transform: rotate(-45deg);
-        display: inline-block;
-        position: absolute;
-        top: 30px;
-        left: 20px;
-    }
-    &__link-list {
-        display: block;
-        width: 100%;
-        padding-top: gutter();
-        border-right: 1px solid white;
-        overflow: hidden;
-    }
-    &__link-item {
-        width: span(4);
-        font-size: 30px;
-        padding: 10px;
-        display: inline-block;
-        text-align: center;
-        background-color: lightgrey;
-        border-top: solid 1px #fff;
     }
 }

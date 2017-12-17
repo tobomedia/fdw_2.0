@@ -33,9 +33,6 @@ export const mapDispatchToProps = (dispatch, ownProps) => {
         getNews: () => {
             dispatch(Actions.getNews());
         },
-        searchArtist: (term, range) => {
-            dispatch(Actions.searchArtist(term,range));
-        },
         clearSearch: () => {
             dispatch(Actions.clearSearch());
         }

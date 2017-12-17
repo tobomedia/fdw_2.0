@@ -5,6 +5,7 @@ import Nav from './Nav';
 // import ListContainer from './ListContainer';
 import News from './newsList/containNewsList';
 import ArtistList from './artistList/containArtistList';
+import Search from './search/containerSearch';
 import Home from './Home';
 import About from './About';
 import History from './History';
@@ -20,6 +21,7 @@ class App extends Component {
                 <Route path="/history" component={History} />
                 <Route path="/contact-us" component={ContactUs} />
                 <Route path="/news/:client?" component={News} />
+                <Route path="/search/:term" component={Search} />
                 <Route path="/:clientRange" component={ArtistList} />
             </Switch>
         </Nav>
