@@ -7,21 +7,28 @@ import Search from './Search';
 
 export const mapStateToProps = (state, ownProps) => {
     const { match: { params } } = ownProps;
-    const { search, actors, actresses, creatives } = state;
+    const { search, actors, actresses, creatives, newsObject } = state;
 
     return {
         params,
         search,
         actors,
         actresses,
-        creatives
+        creatives,
+        newsObject
     }
 }
 
 export const mapDispatchToProps = (dispatch) => {
     return {
-        searchArtist: (term, range) => {
-            dispatch(Actions.searchArtist(term,range));
+        getArtists: (url) => {
+            dispatch(Actions.getActors(url));
+        },
+        getCreatives: () => {
+            dispatch(Actions.getCreatives('creatives'));
+        },
+        getNews: () => {
+            dispatch(Actions.getNews());
         }
     }
 }

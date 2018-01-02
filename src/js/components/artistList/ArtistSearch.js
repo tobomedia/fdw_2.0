@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
-import ArtistItem from './ArtistItem';
+import ArtistItem from '../ui/ArtistItem';
 
 class ArtistSearch extends Component {
     constructor() {

@@ -4,6 +4,8 @@
 .c-client-list {
     margin: 20px;
     margin-left: 0;
+    float: left;
+    width: container();
 }
 
 .c-client-list__item {
