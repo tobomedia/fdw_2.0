@@ -10,6 +10,9 @@
         display: block;
         overflow: hidden;
         padding: 20px 0;
+        @media (max-width: 768px) {
+            display: none;
+        }
     }
     &__link-item {
         width: span(1 of 8);
@@ -25,6 +28,14 @@
         }
         &:last-child {
             margin-right: 0;
+        }
+    }
+    &-mobile {
+        width: 80%;
+        margin: 0 auto 10px;
+        display: block;
+        @media (min-width: 768px) {
+            display: none;
         }
     }
 }

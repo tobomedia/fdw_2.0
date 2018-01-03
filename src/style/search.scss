@@ -5,6 +5,12 @@
     position: absolute;
     right: 100px;
     top:50px;
+    @media (max-width: 768px) {
+        position: relative;
+        right: auto;
+        top:auto;
+        margin: 20px auto;
+    }
 }
 
 

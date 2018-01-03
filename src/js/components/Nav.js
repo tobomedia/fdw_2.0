@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router';
 
 import SearchInput from './SearchInput';
 
@@ -11,6 +12,7 @@ class Nav extends Component {
 
         this.state = {menu : true};
         this.handleMenuClick = this.handleMenuClick.bind(this);
+        this.handleMobileSelect = this.handleMobileSelect.bind(this);
     }
 
     handleMenuClick(e) {
@@ -19,7 +21,11 @@ class Nav extends Component {
     }
 
     scrollTop() {
-        document.querySelector('body').scrollTop = 0;
+        document.querySelector('.e-logo').scrollIntoView(true)
+    }
+
+    handleMobileSelect(e) {
+        this.props.history.push(`/${e.target.value}`);
     }
 
     componentWillReceiveProps() {
@@ -61,11 +67,18 @@ class Nav extends Component {
                         <div className="c-main-navigation__link-item">
                             <Link to="/contact-us">Contact</Link>
                         </div>
-                        <div className="c-main-navigation__link-item">
-                            <Link to="/">Home</Link>
-                        </div>
                     </div>
                 </div>
+
+                <select className="c-main-navigation-mobile" onChange={this.handleMobileSelect}>
+                    <option value="home">Home</option>
+                    <option value="actresses">Actresses</option>
+                    <option value="actors">Actors</option>
+                    <option value="creatives">Creatives</option>
+                    <option value="news">News</option>
+                    <option value="about">About Us</option>
+                    <option value="contact">Contact</option>
+                </select>
 
             <div className="c-main-content">
                 {this.props.children}
@@ -74,4 +87,4 @@ class Nav extends Component {
     }
 }
 
-export default Nav
+export default withRouter(Nav)

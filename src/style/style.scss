@@ -22,6 +22,10 @@ body {
     padding: 5px;
     position: relative;
     z-index: 2;
+    @media (max-width: 768px) {
+        width: span(8);
+        margin: 0 auto;
+    }
 }
 .container {
     min-height: 900px;
@@ -38,6 +42,11 @@ body {
     display: block;
     overflow: hidden;
     padding: 0px 10px;
+
+    @media (max-width: 768px) {
+        padding: 0;
+        width: span(11);
+    }
 }
 
 .c-content-module {
@@ -49,6 +58,11 @@ body {
     font-size: 1em;
     line-height: 1.4em;
     font-family: 'Montserrat', sans-serif;
+
+    @media (max-width: 768px) {
+        margin: 5px;
+        padding: 5px;
+    }
 }
 
 
