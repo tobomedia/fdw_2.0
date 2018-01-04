@@ -13,11 +13,17 @@ class Nav extends Component {
         this.state = {menu : true};
         this.handleMenuClick = this.handleMenuClick.bind(this);
         this.handleMobileSelect = this.handleMobileSelect.bind(this);
+        this.handleMobileMenuToggle = this.handleMobileMenuToggle.bind(this);
     }
 
     handleMenuClick(e) {
         e.preventDefault();
         document.querySelector('.c-main-navigation__link-list').scrollIntoView(false);
+    }
+
+    handleMobileMenuToggle(e) {
+        e.preventDefault();
+        this.setState({'menu':!this.state.menu})
     }
 
     scrollTop() {
@@ -45,7 +51,10 @@ class Nav extends Component {
 
                     <SearchInput />
 
-                    <div key="one" className="c-main-navigation__link-list">
+                    <div key="one" className={`c-main-navigation__link-list ${(this.state.menu ? 'c-main-navigation__link-list--show' : '')}`}>
+                        <a href="javascript://" onClick={this.handleMobileMenuToggle} className="c-main-navigation__hamburger">
+                            <img src="assets/img/hamburger.svg" width="20px" height="20px" />
+                        </a>
                         <div className="c-main-navigation__link-item">
                             <Link to="/actresses">Actresses</Link>
                         </div>
