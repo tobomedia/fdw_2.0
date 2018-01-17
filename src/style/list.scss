@@ -72,10 +72,11 @@
     &__image {
         width: span(1 of 3);
         float: left;
-        height: 50px
+        height: 100px;
+        margin-top: 5px;
         img {
-            max-width: 100%;
-            height: auto;
+            width: auto;
+            max-height: 100%;
         }
     }
     &__main-text {
