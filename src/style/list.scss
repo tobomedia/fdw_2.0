@@ -58,10 +58,9 @@
     &__item {
         list-style: none;
         display: block;
-        min-height: 230px;
+        // min-height: 80px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 12px;
         text-align: center;
         background-color: white;
         border-radius: 10px;
@@ -73,6 +72,7 @@
     &__image {
         width: span(1 of 3);
         float: left;
+        height: 50px
         img {
             max-width: 100%;
             height: auto;
