@@ -25,17 +25,45 @@ landscape.map((actor,index) => {
     });
 });
 
+const placement = {
+    'ashwin_bolar': 40,
+    'charlie_clapham': 50,
+    'lex_daniel': 40,
+    'mikhael_deville': 30,
+    'brett_fancy': 70,
+    'david_gillies': 20,
+    'shiv_grewal': 60,
+    'john_hales': 40,
+    'daniel_kobbina':20,
+    'francesco_martino': 90,
+    'martin_mcdougall':40,
+    'david_peart': 30,
+    'keiron_self':20,
+    'sean_sloan': 30,
+    'antony_somers': 40,
+    'marvin_springer': 40,
+    'steve_whiteley': 30,
+    'august_wittgenstein': 40,
+    'matthew_wycliffe':30,
+    'naomi_allisstone': 40,
+    'claire_cage': 40,
+    'aileen_gonsalves':40,
+    'samantha_holland':30,
+    'judith_humphreys':30,
+    'christine_mckenna':40,
+    'rhian_morgan':20,
+};
+
 const files = fs.readdirSync(__dirname+'/actor_images');
 
 files.map((file) => {
     let check = landscape.filter((name) => {
-        console.log(name.name === file.replace('.jpg',''));
         return name.name === file.replace('.jpg','');
     });
     if (!check.length && file) {
         console.log('#############  resizing ', file);
         gm(path.join(__dirname,'/actor_images/'+file)).resize(300)
-        .crop(300,300,0,0)
+        .crop(300,300,0,(placement[file.replace('.jpg','')] ? placement[file.replace('.jpg','')] : 0))
         .write(path.join(__dirname,'/actor_images/'+file), (err) => {
             console.error(err);
         });
