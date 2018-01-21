@@ -11,7 +11,8 @@ var fs = require('fs'),
         {name:'nina_pavlovic', positionX:120, positionY:0},
         {name:'katie_ray', positionX:80, positionY:50},
         {name:'sara_topham', positionX:80, positionY:0},
-        {name:'anna-marie_wayne', positionX:190, positionY:0}
+        {name:'anna-marie_wayne', positionX:190, positionY:0},
+        {name:'ray_macallan', positionX:100, positionY:0}
     ];
 landscape.map((actor,index) => {
     gm(path.join(__dirname,`actor_images/${actor.name}.jpg`))

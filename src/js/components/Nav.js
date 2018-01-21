@@ -92,6 +92,7 @@ class Nav extends Component {
             <div className="c-main-content">
                 {this.props.children}
             </div>
+            <a href="https://twitter.com/felixdewolfe" target="_blank"><img src="/mobile/assets/img/twitter-logo.svg" width="30px" height="30px" /></a>
         </div>)
     }
 }

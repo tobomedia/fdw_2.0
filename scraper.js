@@ -80,7 +80,7 @@ casper.then(function() {
             }
 
 
-            console.log('Downloading > ', name);
+            console.log('Downloading >', name);
             if (name !== null) {
                 casper.download(url.replace(/\~[0-9]+x[0-9]+/, '~540x540'), 'actor_images/'+name+'.jpg');
             }
