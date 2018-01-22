@@ -87,6 +87,23 @@ body {
     }
 }
 
+.c-footer {
+    @include container();
+    margin-right: 9%;
+    color: #777;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    > div {
+        @include gallery(1 of 2);
+        & a img {
+            width: auto;
+        }
+        &:nth-child(2) {
+            text-align: right;
+        }
+    }
+}
+
 
 /* Typeography */
 

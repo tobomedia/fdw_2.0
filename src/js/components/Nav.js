@@ -14,6 +14,7 @@ class Nav extends Component {
         this.handleMenuClick = this.handleMenuClick.bind(this);
         this.handleMobileSelect = this.handleMobileSelect.bind(this);
         this.handleMobileMenuToggle = this.handleMobileMenuToggle.bind(this);
+        this.getYear = this.getYear.bind(this);
     }
 
     handleMenuClick(e) {
@@ -32,6 +33,11 @@ class Nav extends Component {
 
     handleMobileSelect(e) {
         this.props.history.push(`/${e.target.value}`);
+    }
+
+    getYear() {
+        const d = new Date();
+        return d.getFullYear();
     }
 
     componentWillReceiveProps() {
@@ -91,8 +97,17 @@ class Nav extends Component {
 
             <div className="c-main-content">
                 {this.props.children}
+                <div className="c-footer">
+                    <div>
+                        <a href="//twitter.com/felixdewolfe" target="_blank"><img src="/mobile/assets/img/twitter-logo.svg" width="30px" height="30px" /></a>
+                    </div>
+                    <div>
+                        <p>
+                            &#169; Felix de Wolfe {this.getYear()}
+                        </p>
+                    </div>
+                </div>
             </div>
-            <a href="https://twitter.com/felixdewolfe" target="_blank"><img src="/mobile/assets/img/twitter-logo.svg" width="30px" height="30px" /></a>
         </div>)
     }
 }
