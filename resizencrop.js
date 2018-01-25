@@ -38,6 +38,7 @@ const placement = {
     'francesco_martino': 90,
     'martin_mcdougall':40,
     'david_peart': 30,
+    'george_rossi':20,
     'keiron_self':20,
     'sean_sloan': 30,
     'antony_somers': 40,
