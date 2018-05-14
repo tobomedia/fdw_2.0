@@ -15,6 +15,14 @@ move:
 	cp -rv unlisted/* actor_images
 	cp -rv actor_images assets
 	cp -rv actor_images mobile/assets
+	cp actors_a_k.xml mobile/assets
+	cp actors_l_z.xml mobile/assets
+	cp actresses_a_k.xml mobile/assets
+	cp actresses_l_z.xml mobile/assets
+	cp actors_a_k.xml assets
+	cp actors_l_z.xml assets
+	cp actresses_a_k.xml assets
+	cp actresses_l_z.xml assets
 	@echo Completed.
 
 clean:

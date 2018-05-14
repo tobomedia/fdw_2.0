@@ -53,7 +53,7 @@
 <bio_num>2</bio_num>
 <linko>http://www.spotlight.com/0098-0194-3665</linko>
 </pic>
-
+<!--
 <pic>
 <image>actor_images/jenni_banerjee.jpg</image>
 <caption>Jenni Banerjee</caption>
@@ -61,7 +61,7 @@
 <bio>jenni_banerjee</bio>
 <bio_num>2</bio_num>
 <linko>http://www.spotlight.com/interactive/cv/1/F175005.html</linko>
-</pic>
+</pic> -->
 
 <pic>
 <image>actor_images/suzy_bastone.jpg</image>
@@ -313,14 +313,6 @@
 </pic>
 
 <pic>
-<image>actor_images/chloe_farnworth.jpg</image>
-<caption>Chloe Farnworth</caption>
-<video>none</video>
-<bio>chloe_farnworth</bio><bio_num>1</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/1/F140476.html</linko>
-</pic>
-
-<pic>
 <image>actor_images/stephanie_fayerman.jpg</image>
 <caption>Stephanie Fayerman</caption>
 <video>none</video>
@@ -361,15 +353,6 @@
 <bio>marta_gastini</bio>
 <bio_num>2</bio_num>
 <linko>https://www.spotlight.com/interactive/cv/1/F220437.html</linko>
-</pic>
-
-<pic>
-<image>actor_images/aileen_gonsalves.jpg</image>
-<caption>Aileen Gonsalves</caption>
-<video>none</video>
-<bio>aileen_gonsalves</bio>
-<bio_num>2</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/1/F21047.html</linko>
 </pic>
 
 <pic>

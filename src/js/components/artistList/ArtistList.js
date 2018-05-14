@@ -1,7 +1,7 @@
-import React, { Component, PropTypes } from 'react';
-import extractName from '../../extractName';
+import React, { Component, PropTypes } from "react";
+import extractName from "../../extractName";
 
-import ArtistSearch from './ArtistSearch';
+import ArtistSearch from "./ArtistSearch";
 
 class ArtistList extends Component {
     constructor() {
@@ -10,7 +10,7 @@ class ArtistList extends Component {
 
     componentDidMount() {
         if (!this.props[this.props.params.clientRange].length) {
-            this.props.getArtists(this.props.params.clientRange)
+            this.props.getArtists(this.props.params.clientRange);
         }
         if (!this.props.newsArray.length) {
             this.props.getNews();
@@ -18,21 +18,27 @@ class ArtistList extends Component {
     }
 
     componentWillReceiveProps(newProps) {
-            if (!newProps[newProps.params.clientRange].length && this.props.params.clientRange !== newProps.params.clientRange) {
-                this.props.getArtists(newProps.params.clientRange)
-            }
+        if (
+            !newProps[newProps.params.clientRange].length &&
+            this.props.params.clientRange !== newProps.params.clientRange
+        ) {
+            this.props.getArtists(newProps.params.clientRange);
+        }
     }
 
     render() {
-        return (<div>
-            <ArtistSearch {...this.props} />
-        </div>)}
+        return (
+            <div>
+                <ArtistSearch {...this.props} />
+            </div>
+        );
     }
+}
 
 ArtistList.propTypes = {
     params: PropTypes.shape({
         clientRange: PropTypes.string
     })
-}
+};
 
-export default ArtistList
+export default ArtistList;
