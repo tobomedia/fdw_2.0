@@ -109,14 +109,6 @@
 </pic>
 
 <pic>
-    <image>actor_images/danielle_munday.jpg</image>
-    <caption>Danielle Munday</caption>
-    <video>none</video>
-    <bio>danielle_munday</bio><bio_num>1</bio_num>
-    <linko>http://www.spotlight.com/9730-3421-0413</linko>
-</pic>
-
-<pic>
 <image>actor_images/kay_murphy.jpg</image>
 <caption>Kay Murphy</caption>
 <video>none</video>
@@ -224,6 +216,15 @@
 </pic>
 
 <pic>
+<image>actor_images/seyan_sarvan.jpg</image>
+<caption>Seyan Sarvan</caption>
+<video>none</video>
+<bio>seyan_sarvan</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/3094-9080-3481</linko>
+</pic>
+
+<pic>
 <image>actor_images/unique_spencer.jpg</image>
 <caption>Unique Spencer</caption>
 <video>none</video>
@@ -257,15 +258,6 @@
 <bio>biljana_stojkoska</bio>
 <bio_num>3</bio_num>
 <linko>http://www.spotlight.com/4613-7864-9080</linko>
-</pic>
-
-<pic>
-<image>actor_images/natalie_taylor_gray.jpg</image>
-<caption>Natalie Taylor Gray</caption>
-<video>none</video>
-<bio>Natalie Taylor Gray</bio>
-<bio_num>3</bio_num>
-<linko>http://www.spotlight.com/2374-9086-1529</linko>
 </pic>
 
 <pic>

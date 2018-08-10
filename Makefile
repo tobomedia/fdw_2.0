@@ -1,6 +1,6 @@
 .PHONY: all scrape resizeLandscape resize clean move
 
-all: | clean scrape resizeLandscape move
+all: | scrape resizeLandscape move
 
 scrape:
 	@echo Scraping...

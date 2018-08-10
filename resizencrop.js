@@ -13,7 +13,7 @@ const landscape = [
     { name: "sara_topham", positionX: 80, positionY: 0 },
     { name: "anna_marie_cseh", positionX: 130, positionY: 0 },
     { name: "ray_macallan", positionX: 100, positionY: 0 },
-    // {name:'andrew_stewart-jones', positionX:190, positionY:0},
+    { name: "yorgos_karamalegos", positionX: 90, positionY: 0 },
     { name: "geoffroy_lickel", positionX: 170, positionY: 0 }
 ];
 landscape.map((actor, index) => {
@@ -37,7 +37,7 @@ const placement = {
     david_gillies: 20,
     shiv_grewal: 60,
     john_hales: 40,
-    daniel_kobbina: 20,
+    // daniel_kobbina: 20,
     francesco_martino: 90,
     // martin_mcdougall: 40,
     david_peart: 30,
@@ -52,7 +52,6 @@ const placement = {
     matthew_wycliffe: 30,
     naomi_allisstone: 40,
     claire_cage: 40,
-    // 'aileen_gonsalves':40,
     samantha_holland: 30,
     judith_humphreys: 30,
     christine_mckenna: 40,
