@@ -26,15 +26,6 @@
 <linko>http://www.spotlight.com/0698-7834-5384</linko>
 </pic>
 
-
-<pic>
-<image>actor_images/earl_ling.jpg</image>
-<caption>Earl Ling</caption>
-<video>none</video>
-<bio>earl_ling</bio><bio_num>1</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/1/M163791.html</linko>
-</pic>
-
 <pic>
 <image>actor_images/tom_lister.jpg</image>
 <caption>Tom Lister</caption>
@@ -49,6 +40,15 @@
 <video>none</video>
 <bio>sion_lloyd</bio><bio_num>1</bio_num>
 <linko>http://www.spotlight.com/0457-9054-8233</linko>
+</pic>
+
+<pic>
+<image>actor_images/brendan_lucia.jpg</image>
+<caption>Brendan Lucia</caption>
+<video>none</video>
+<bio>brendan_lucia</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/9419-7838-3054</linko>
 </pic>
 
 <pic>
@@ -76,15 +76,6 @@
 <bio>andy_mace</bio>
 <bio_num>2</bio_num>
 <linko>http://www.spotlight.com/2219-7835-2542</linko>
-</pic>
-
-<pic>
-<image>actor_images/matthew_marrs.jpg</image>
-<caption>Matthew Marrs</caption>
-<video>none</video>
-<bio>matthew-marrs</bio>
-<bio_num>2</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/1/M140668.html</linko>
 </pic>
 
 <pic>
@@ -129,11 +120,11 @@
 </pic>
 
 <pic>
-<image>actor_images/michael_melmoe.jpg</image>
-<caption>Michael Melmoe</caption>
+<image>actor_images/gavin_mitchell.jpg</image>
+<caption>Gavin Mitchell</caption>
 <video>none</video>
-<bio>michael_melmoe</bio><bio_num>1</bio_num>
-<linko>http://www.spotlight.com/9617-7836-7756</linko>
+<bio>gavin_mitchell</bio><bio_num>2</bio_num>
+<linko>http://www.spotlight.com/9858-5618-7588</linko>
 </pic>
 
 <pic>
@@ -150,14 +141,6 @@
 <video>none</video>
 <bio>john_odowd</bio><bio_num>2</bio_num>
 <linko>http://www.spotlight.com/1733-7835-0410</linko>
-</pic>
-
-<pic>
-<image>actor_images/kent_olesen.jpg</image>
-<caption>Kent Olesen</caption>
-<video>none</video>
-<bio>kentolesen</bio><bio_num>1</bio_num>
-<linko>NO</linko>
 </pic>
 
 <pic>
@@ -182,14 +165,6 @@
 <video>none</video>
 <bio>femi_oyeniran</bio><bio_num>2</bio_num>
 <linko>http://www.spotlight.com/interactive/cv/1/M91626.html</linko>
-</pic>
-
-<pic>
-<image>actor_images/dharmesh_patel.jpg</image>
-<caption>Dharmesh Patel</caption>
-<video>none</video>
-<bio>dharmesh_patel</bio><bio_num>1</bio_num>
-<linko>http://www.spotlight.com/7177-6723-0796</linko>
 </pic>
 
 <pic>
@@ -251,27 +226,19 @@
 </pic>
 
 <pic>
+<image>actor_images/jamie_robson.jpg</image>
+<caption>Jamie Robson</caption>
+<video>none</video>
+<bio>jamie_robson</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/2853-1271-9019</linko>
+</pic>
+
+<pic>
 <image>actor_images/neil_roberts.jpg</image>
 <caption>Neil Roberts</caption>
 <video>none</video>
 <bio>neil_roberts</bio><bio_num>1</bio_num>
 <linko>http://www.spotlight.com/0819-1272-2207</linko>
-</pic>
-
-<pic>
-<image>actor_images/ethan_rouse.jpg</image>
-<caption>Ethan Rouse</caption>
-<video>none</video>
-<bio>ethan_rouse</bio><bio_num>1</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/16/M190614.html</linko>
-</pic>
-
-<pic>
-<image>actor_images/isaac_rouse.jpg</image>
-<caption>Isaac Rouse</caption>
-<video>none</video>
-<bio>isaac_rouse</bio><bio_num>1</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/16/M181257.html</linko>
 </pic>
 
 <pic>
@@ -322,6 +289,14 @@
 <video>none</video>
 <bio>orli_shuka</bio><bio_num>1</bio_num>
 <linko>http://www.spotlight.com/interactive/cv/1/M199023.html</linko>
+</pic>
+
+<pic>
+<image>actor_images/christopher_short.jpg</image>
+<caption>Christopher Short</caption>
+<video>none</video>
+<bio>sean_sloan</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/5338-3490-0856</linko>
 </pic>
 
 <pic>
@@ -398,15 +373,6 @@
 <bio>dean_street</bio>
 <bio_num>1</bio_num>
 <linko>http://www.spotlight.com/6053-7835-8450</linko>
-</pic>
-
-<pic>
-<image>actor_images/luke_striffler.jpg</image>
-<caption>Luke Striffler</caption>
-<video>none</video>
-<bio>luke_striffler</bio>
-<bio_num>1</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/1/M138175.html</linko>
 </pic>
 
 <pic>

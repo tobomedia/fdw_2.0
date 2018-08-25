@@ -46,24 +46,6 @@
 </pic>
 
 <pic>
-<image>actor_images/bethan_ashman.jpg</image>
-<caption>Bethan Ashman</caption>
-<video>none</video>
-<bio>bethan_ashman</bio>
-<bio_num>2</bio_num>
-<linko>http://www.spotlight.com/0098-0194-3665</linko>
-</pic>
-<!--
-<pic>
-<image>actor_images/jenni_banerjee.jpg</image>
-<caption>Jenni Banerjee</caption>
-<video>none</video>
-<bio>jenni_banerjee</bio>
-<bio_num>2</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/1/F175005.html</linko>
-</pic> -->
-
-<pic>
 <image>actor_images/suzy_bastone.jpg</image>
 <caption>Suzy Bastone</caption>
 <video>none</video>
@@ -99,14 +81,6 @@
 <linko>http://www.spotlight.com/interactive/cv/1/F157530.html</linko>
 </pic>
 
-<pic>
-<image>actor_images/tia_benbow-hart.jpg</image>
-<caption>Tia Benbow-Hart</caption>
-<video>none</video>
-<bio>tia_benbow-hart</bio>
-<bio_num>1</bio_num>
-<linko>https://www.spotlight.com/interactive/cv/17/F158881.html</linko>
-</pic>
 
 <pic>
 <image>actor_images/siobhan_bevan.jpg</image>
@@ -123,6 +97,14 @@
 <video>none</video>
 <bio>lauriane_borde</bio><bio_num>1</bio_num>
 <linko>http://www.spotlight.com/interactive/cv/1/F198039.html</linko>
+</pic>
+
+<pic>
+<image>actor_images/olivia_brady.jpg</image>
+<caption>Olivi Brady</caption>
+<video>none</video>
+<bio>olivi_brady</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/6214-6752-3272</linko>
 </pic>
 
 <pic>
@@ -169,6 +151,7 @@
 <linko>http://www.spotlight.com/interactive/cv/1818-1205-8634</linko>
 
 </pic>
+
 <pic>
 <image>actor_images/heather_chasen.jpg</image>
 <caption>Heather Chasen</caption>
@@ -176,16 +159,18 @@
 <bio>heather_chasen</bio>
 <bio_num>2</bio_num>
 <linko>http://www.spotlight.com/7653-5647-6561</linko>
-
 </pic>
 
 <pic>
-<image>actor_images/ellie_chidzey.jpg</image>
-<caption>Ellie Chidzey</caption>
+<image>actor_images/lily_catalifo.jpg</image>
+<caption>Lily Catalifo</caption>
 <video>none</video>
-<bio>ellie_chidzey</bio><bio_num>1</bio_num>
-<linko>http://www.spotlight.com/1011-5644-5604</linko>
+<bio>lily_catalifo</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/1013-7863-5436</linko>
+
 </pic>
+
 <pic>
 <image>actor_images/flaminia_cinque.jpg</image>
 <caption>Flaminia Cinque</caption>
@@ -196,6 +181,15 @@
 
 </pic>
 
+
+<pic>
+<image>actor_images/tonya_cornelisse.jpg</image>
+<caption>Tonya Cornelisse</caption>
+<video>none</video>
+<bio>tonya_cornelisse</bio>
+<bio_num>3</bio_num>
+<linko>https://www.spotlight.com/1019-4535-0123</linko>
+</pic>
 
 <pic>
 <image>actor_images/natasha_cottriall.jpg</image>
@@ -240,15 +234,6 @@
 <bio>katy_dean</bio>
 <bio_num>3</bio_num>
 <linko>http://www.spotlight.com/0633-5643-8576</linko>
-</pic>
-
-<pic>
-<image>actor_images/naomi_de-lorme.jpg</image>
-<caption>Naomi De Lorme</caption>
-<video>none</video>
-<bio>naomi_de-lorme</bio>
-<bio_num>3</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/1/F172563.html</linko>
 </pic>
 
 <pic>
@@ -426,6 +411,15 @@
 </pic>
 
 <pic>
+<image>actor_images/siwan_henderson.jpg</image>
+<caption>Siwan Henderson</caption>
+<video>none</video>
+<bio>siwan_henderson</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/2217-5640-6415</linko>
+
+</pic>
+
+<pic>
 <image>actor_images/rendah_heywood.jpg</image>
 <caption>Rendah Heywood</caption>
 <video>none</video>
@@ -444,6 +438,14 @@
 </pic>
 
 <pic>
+<image>actor_images/olivia_hibbert.jpg</image>
+<caption>Olivia Hibbert</caption>
+<video>none</video>
+<bio>olivia_hibbert</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/5411-4533-8893</linko>
+</pic>
+
+<pic>
 <image>actor_images/joan_hodges.jpg</image>
 <caption>Joan Hodges</caption>
 <video>none</video>
@@ -452,11 +454,27 @@
 </pic>
 
 <pic>
+<image>actor_images/beau_holland.jpg</image>
+<caption>Beau Holland</caption>
+<video>none</video>
+<bio>beau_holland</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/3810-5644-7322</linko>
+</pic>
+
+<pic>
 <image>actor_images/samantha_holland.jpg</image>
 <caption>Samantha Holland</caption>
 <video>none</video>
 <bio>samantha_holland</bio><bio_num>1</bio_num>
 <linko>http://www.spotlight.com/interactive/cv/1/F6882.html</linko>
+</pic>
+
+<pic>
+<image>actor_images/lauren_hood.jpg</image>
+<caption>Lauren Hood</caption>
+<video>none</video>
+<bio>lauren_hood</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/9079-9086-5893</linko>
 </pic>
 
 <pic>
@@ -502,6 +520,14 @@
 </pic>
 
 <pic>
+<image>actor_images/alana_jade.jpg</image>
+<caption>Alana Jade</caption>
+<video>none</video>
+<bio>alana_jade</bio><bio_num>1</bio_num>
+<linko>https://www.spotlight.com/3413-4534-5482</linko>
+</pic>
+
+<pic>
 <image>actor_images/hannah_jessop.jpg</image>
 <caption>Hannah Jessop</caption>
 <video>none</video>
@@ -515,6 +541,15 @@
 <video>none</video>
 <bio>katherine_kellgren</bio><bio_num>1</bio_num>
 <linko>http://www.spotlight.com/interactive/cv/1/F18198.html</linko>
+</pic>
+
+<pic>
+<image>actor_images/jesse_jones.jpg</image>
+<caption>Jesse Jones</caption>
+<video>none</video>
+<bio>jesse_jones</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/2295-1209-4427</linko>
 </pic>
 
 <pic>

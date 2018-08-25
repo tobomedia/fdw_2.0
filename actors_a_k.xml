@@ -75,6 +75,14 @@
 </pic>
 
 <pic>
+<image>actor_images/joel_beckett.jpg</image>
+<caption>Joel Beckett</caption>
+<video>none</video>
+<bio>joel_beckett</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/7816-6728-8941</linko>
+</pic>
+
+<pic>
 <image>actor_images/gareth_berliner.jpg</image>
 <caption>Gareth Berliner</caption>
 <video>none</video>
@@ -99,11 +107,27 @@
 </pic>
 
 <pic>
+<image>actor_images/matthew_blaney.jpg</image>
+<caption>Matthew Blaney</caption>
+<video>none</video>
+<bio>ashwin_bolar</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/9172-3496-5743</linko>
+</pic>
+
+<pic>
 <image>actor_images/ashwin_bolar.jpg</image>
 <caption>Ashwin Bolar</caption>
 <video>none</video>
 <bio>ashwin_bolar</bio><bio_num>1</bio_num>
 <linko>http://www.spotlight.com/interactive/cv/1/M86571.html</linko>
+</pic>
+
+<pic>
+<image>actor_images/remus_brooks.jpg</image>
+<caption>Remus Brooks</caption>
+<video>none</video>
+<bio>remus_brooks</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/7013-4504-2480</linko>
 </pic>
 
 <pic>
@@ -175,6 +199,14 @@
 </pic>
 
 <pic>
+<image>actor_images/ollie_corbett.jpg</image>
+<caption>Ollie Corbett</caption>
+<video>none</video>
+<bio>ollie_corbett</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/0618-8945-1399</linko>
+</pic>
+
+<pic>
 <image>actor_images/oliver_cudbill.jpg</image>
 <caption>Oliver Cudbill</caption>
 <video>none</video>
@@ -235,6 +267,15 @@
 <linko>http://www.spotlight.com/3513-5617-0594</linko>
 </pic>
 
+
+<pic>
+<image>actor_images/segun_fawole.jpg</image>
+<caption>Segun Fawole</caption>
+<video>none</video>
+<bio>segun_fawole</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/4775-7836-2717</linko>
+</pic>
 
 <pic>
 <image>actor_images/martin_fisher.jpg</image>
@@ -303,6 +344,15 @@
 
 
 <pic>
+<image>actor_images/gus_gordon.jpg</image>
+<caption>Gus Gordon</caption>
+<video>none</video>
+<bio>gus_gordon</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/0614-4508-8150</linko>
+</pic>
+
+<pic>
 <image>actor_images/simon_green.jpg</image>
 <caption>Simon Green</caption>
 <video>none</video>
@@ -336,6 +386,15 @@
 <bio>john_hales</bio>
 <bio_num>2</bio_num>
 <linko>http://www.spotlight.com/interactive/cv/1/M190714.html</linko>
+</pic>
+
+<pic>
+<image>actor_images/james_hameed.jpg</image>
+<caption>James Hameed</caption>
+<video>none</video>
+<bio>james_hameed</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/0614-4503-2373</linko>
 </pic>
 
 <pic>
@@ -474,12 +533,21 @@
 </pic>
 
 <pic>
+<image>actor_images/ian_kelsey.jpg</image>
+<caption>Ian Kelsey</caption>
+<video>none</video>
+<bio>ian_kelsey</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/7659-1278-5821</linko>
+</pic>
+
+<pic>
 <image>actor_images/edmund_kente.jpg</image>
 <caption>Edmund Kente</caption>
 <video>none</video>
 <bio>edmund_kente</bio>
 <bio_num>2</bio_num>
-<linko>http://www.spotlight.com/0291-5613-7856 </linko>
+<linko>http://www.spotlight.com/0291-5613-7856</linko>
 </pic>
 
 <pic>
