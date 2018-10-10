@@ -136,6 +136,14 @@
 </pic>
 
 <pic>
+<image>actor_images/tony_ocallaghan.jpg</image>
+<caption>Tony O'Callaghan</caption>
+<video>none</video>
+<bio>tony_ocallaghan</bio><bio_num>2</bio_num>
+<linko>http://www.spotlight.com/0812-4509-7972</linko>
+</pic>
+
+<pic>
 <image>actor_images/john_odowd.jpg</image>
 <caption>John O'Dowd</caption>
 <video>none</video>
@@ -174,6 +182,15 @@
 <bio>david_peart</bio>
 <bio_num>2</bio_num>
 <linko>http://www.spotlight.com/5414-7833-0167</linko>
+</pic>
+
+<pic>
+<image>actor_images/sam_peggs.jpg</image>
+<caption>Sam Peggs</caption>
+<video>none</video>
+<bio>sam_peggs</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/4139-0165-6047</linko>
 </pic>
 
 
@@ -215,6 +232,14 @@
 <video>none</video>
 <bio>farshid_rokey</bio><bio_num>1</bio_num>
 <linko>http://www.spotlight.com/0631-3494-7344</linko>
+</pic>
+
+<pic>
+<image>actor_images/shone_romulus.jpg</image>
+<caption>Shone Romulus</caption>
+<video>none</video>
+<bio>shone_romulus</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/8618-7831-0624</linko>
 </pic>
 
 <pic>
@@ -453,6 +478,14 @@
 </pic>
 
 <pic>
+    <image>actor_images/james_warren.jpg</image>
+    <caption>James Warren</caption>
+    <video>none</video>
+    <bio>james_warren</bio><bio_num>1</bio_num>
+    <linko>http://www.spotlight.com/7414-9053-9913</linko>
+</pic>
+
+<pic>
     <image>actor_images/elliot_warren.jpg</image>
     <caption>Elliot Warren</caption>
     <video>none</video>
@@ -493,15 +526,6 @@
 <bio>ross_william_wild</bio>
 <bio_num>2</bio_num>
 <linko>http://www.spotlight.com/interactive/cv/1/M142649.html</linko>
-</pic>
-
-<pic>
-<image>actor_images/august_wittgenstein.jpg</image>
-<caption>August Wittgenstein</caption>
-<video>none</video>
-<bio>august_wittgenstein</bio>
-<bio_num>2</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/1/M183520.html</linko>
 </pic>
 
 <pic>

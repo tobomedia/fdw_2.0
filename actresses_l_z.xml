@@ -182,6 +182,14 @@
 </pic>
 
 <pic>
+<image>actor_images/nikki_patel.jpg</image>
+<caption>Nikki Patel</caption>
+<video>none</video>
+<bio>nikki_patel</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/0810-1206-0462</linko>
+</pic>
+
+<pic>
 <image>actor_images/nina_pavlovic.jpg</image>
 <caption>Nina Pavlovic</caption>
 <video>none</video>
@@ -374,11 +382,4 @@
 <linko>http://www.spotlight.com/interactive/cv/1/F89092.html</linko>
 </pic>
 
-<pic>
-<image>actor_images/felicity_wright.jpg</image>
-<caption>Felicity Wright</caption>
-<video>none</video>
-<bio>audrie_woodhouse</bio><bio_num>1</bio_num>
-<linko>http://www.spotlight.com/2415-5641-7838</linko>
-</pic>
 </gallery>

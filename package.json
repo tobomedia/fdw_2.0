@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "bluebird": "^3.4.7",
+    "casper": "^0.1.1",
     "google-map-react": "^0.28.0",
     "html-react-parser": "^0.4.0",
     "mocha": "^4.0.1",

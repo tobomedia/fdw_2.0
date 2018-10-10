@@ -33,8 +33,8 @@ casper.then(function() {
 
   casper.evaluate(
     function(username, password) {
-      document.getElementById("Username").value = casper.cli.options.username;
-      document.getElementById("Password").value = casper.cli.options.password;
+      document.getElementById("Username").value = username;
+      document.getElementById("Password").value = password;
       document.getElementById("sign-in-button").click();
     },
     username,
