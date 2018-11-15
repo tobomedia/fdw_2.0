@@ -16,7 +16,12 @@ const landscape = [
   { name: "yorgos_karamalegos", positionX: 90, positionY: 0 },
   { name: "geoffroy_lickel", positionX: 170, positionY: 0 },
   { name: "jane_mccarry", positionX: 130, positionY: 40 },
-  { name: "john_hales", positionX: 150, positionY: 50 }
+  { name: "john_hales", positionX: 150, positionY: 50 },
+  { name: "stefano_cassetti", positionX: 130, positionY: 0 },
+  { name: "siwan_henderson", positionX: 150, positionY: 0 },
+  { name: "ollie_corbett", positionX: 80, positionY: 0 },
+  { name: "yorgos_karamalegos", positionX: 150, positionY: 50 }
+  // { name: "safiyya_ingar", positionX: 130, positionY: 0 }
 ];
 landscape.map((actor, index) => {
   gm(path.join(__dirname, `cache/actor_images/${actor.name}.jpg`))

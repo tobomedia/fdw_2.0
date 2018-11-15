@@ -156,7 +156,17 @@
 <video>none</video>
 <bio>claire_cage</bio>
 <bio_num>2</bio_num>
-<linko>http://www.spotlight.com/interactive/cv/1818-1205-8634</linko>
+<linko>http://www.spotlight.com/1818-1205-8634</linko>
+
+</pic>
+
+<pic>
+<image>actor_images/isabel_canning.jpg</image>
+<caption>Isabel Canning</caption>
+<video>none</video>
+<bio>isabel_canning</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/7898-7865-5983</linko>
 
 </pic>
 
@@ -186,6 +196,16 @@
 <bio>flaminia_cinque</bio>
 <bio_num>2</bio_num>
 <linko>http://www.spotlight.com/2610-1207-6519</linko>
+
+</pic>
+
+<pic>
+<image>actor_images/sasha_clarke.jpg</image>
+<caption>Sasha Clarke</caption>
+<video>none</video>
+<bio>sasha_clarke</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/0534-5642-0113</linko>
 
 </pic>
 
@@ -488,6 +508,14 @@
 </pic>
 
 <pic>
+<image>actor_images/amie_hibbert.jpg</image>
+<caption>Amie Hibbert</caption>
+<video>none</video>
+<bio>amie_hibbert</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/9097-9086-1287</linko>
+</pic>
+
+<pic>
 <image>actor_images/olivia_hibbert.jpg</image>
 <caption>Olivia Hibbert</caption>
 <video>none</video>
@@ -525,6 +553,14 @@
 <video>none</video>
 <bio>lauren_hood</bio><bio_num>1</bio_num>
 <linko>http://www.spotlight.com/9079-9086-5893</linko>
+</pic>
+
+<pic>
+<image>actor_images/sonia_houdi.jpg</image>
+<caption>Sonia Houdi</caption>
+<video>none</video>
+<bio>sonia_houdi</bio><bio_num>1</bio_num>
+<linko>http://www.spotlight.com/6210-1203-6757</linko>
 </pic>
 
 <pic>

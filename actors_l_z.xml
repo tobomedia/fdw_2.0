@@ -52,6 +52,15 @@
 </pic>
 
 <pic>
+<image>actor_images/michael_lyle.jpg</image>
+<caption>Michael Lyle</caption>
+<video>none</video>
+<bio>michael_lyle</bio>
+<bio_num>2</bio_num>
+<linko>http://www.spotlight.com/3812-7832-5329</linko>
+</pic>
+
+<pic>
 <image>actor_images/ross_mac_mahon.jpg</image>
 <caption>Ross Mac Mahon</caption>
 <video>none</video>
@@ -224,14 +233,6 @@
 <video>none</video>
 <bio>michael_riseley</bio><bio_num>1</bio_num>
 <linko>http://www.spotlight.com/3417-8940-6392</linko>
-</pic>
-
-<pic>
-<image>actor_images/farshid_rokey.jpg</image>
-<caption>Farshid Rokey</caption>
-<video>none</video>
-<bio>farshid_rokey</bio><bio_num>1</bio_num>
-<linko>http://www.spotlight.com/0631-3494-7344</linko>
 </pic>
 
 <pic>
@@ -517,6 +518,15 @@
     <bio>steve_whiteley</bio>
     <bio_num>2</bio_num>
     <linko>http://www.spotlight.com/5496-8949-2474</linko>
+</pic>
+
+<pic>
+    <image>actor_images/alex_williams.jpg</image>
+    <caption>Alex Williams</caption>
+    <video>none</video>
+    <bio>alex_williams</bio>
+    <bio_num>2</bio_num>
+    <linko>http://www.spotlight.com/2372-7834-0498</linko>
 </pic>
 
 <pic>
